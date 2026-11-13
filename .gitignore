@@ -18,10 +18,12 @@ venv/
 
 # Operational SQLite databases, transactions & WAL journals
 *.db
+*.db.*
 *.db-journal
 *.db-wal
 *.db-shm
 *.sqlite3
+*.backup*
 
 # Node dependencies & Frontend production build artifacts
 node_modules/
