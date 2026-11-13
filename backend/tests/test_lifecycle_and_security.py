@@ -221,3 +221,28 @@ def test_profile_aware_anomaly_evaluation_regression():
     assert res["summary"]["recall"] == 1.0
     assert res["summary"]["f1_score"] == 1.0
 
+
+def test_customer_data_boundary_enforcement():
+    import pytest
+    from fastapi import HTTPException
+    from backend.app.database.connection import SessionLocal
+    from backend.app.api.routers.applications import get_application_detail
+    from backend.app.services.security import DEMO_USERS
+
+    db = SessionLocal()
+    try:
+        cust_user = DEMO_USERS["customer@bank.org"]
+        # 1. Customer accessing own application LOAN-2026-000001 -> 200 OK
+        detail = get_application_detail("LOAN-2026-000001", db=db, user=cust_user)
+        assert detail["application_id"] == "LOAN-2026-000001"
+
+        # 2. Customer accessing other borrower LOAN-2026-000002 -> HTTPException 403 Forbidden
+        with pytest.raises(HTTPException) as exc_info:
+            get_application_detail("LOAN-2026-000002", db=db, user=cust_user)
+        assert exc_info.value.status_code == 403
+        assert "Forbidden" in exc_info.value.detail
+    finally:
+        db.close()
+
+
+
