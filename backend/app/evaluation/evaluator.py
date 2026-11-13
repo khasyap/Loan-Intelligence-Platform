@@ -4,14 +4,19 @@ against segregated ground-truth labels.
 Computes True Positives, False Positives, False Negatives, Precision, Recall, and F1 Score.
 """
 
-from typing import List, Dict, Any
+import datetime
+from typing import List, Dict, Any, Optional
 
 def evaluate_anomalies(
     ground_truth_records: List[Dict[str, Any]],
-    detected_anomalies: List[Dict[str, Any]]
+    detected_anomalies: List[Dict[str, Any]],
+    profile: Optional[str] = "starter",
+    seed: Optional[int] = 20261022,
+    generation_version: str = "v1.0.0"
 ) -> Dict[str, Any]:
     """
-    Evaluates detector performance.
+    Profile-aware anomaly evaluation service.
+    Compares detector outputs against segregated ground-truth labels.
     Matches primarily on (record_id, issue_type).
     """
     gt_map = {(gt["record_id"], gt["issue_type"]): gt for gt in ground_truth_records}
@@ -65,6 +70,14 @@ def evaluate_anomalies(
         }
 
     return {
+        "metadata": {
+            "profile": profile or "starter",
+            "seed": seed,
+            "generation_version": generation_version,
+            "evaluation_timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+            "expected_anomalies": len(ground_truth_records),
+            "actual_detected": len(detected_anomalies)
+        },
         "summary": {
             "total_ground_truth": len(ground_truth_records),
             "total_detected": len(detected_anomalies),

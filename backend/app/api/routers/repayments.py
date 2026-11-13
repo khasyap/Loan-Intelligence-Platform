@@ -1,16 +1,21 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from decimal import Decimal
 from backend.app.database.connection import get_db
 from backend.app.models.entities import RepaymentSchedule, LoanApplication
 from backend.app.schemas.pydantic_models import InstallmentSchema
 from backend.app.calculations.financial import verify_schedule_reconciliation
+from backend.app.services.security import get_optional_current_user
 
 router = APIRouter(prefix="/repayments", tags=["Repayment Schedules"])
 
 @router.get("/{application_id}", response_model=Dict[str, Any])
-def get_repayment_schedule(application_id: str, db: Session = Depends(get_db)):
+def get_repayment_schedule(
+    application_id: str, 
+    db: Session = Depends(get_db),
+    user: Optional[Dict[str, Any]] = Depends(get_optional_current_user)
+):
     """Retrieve full repayment amortization schedule and reconciliation audit for an application."""
     app = db.query(LoanApplication).filter(LoanApplication.application_id == application_id).first()
     if not app:
@@ -18,6 +23,14 @@ def get_repayment_schedule(application_id: str, db: Session = Depends(get_db)):
             status_code=404, 
             detail=f"Application '{application_id}' does not exist in the platform repository."
         )
+
+    if isinstance(user, dict) and user.get("role") == "CUSTOMER":
+        cust_id = user.get("applicant_id") or "APP-2026-000001"
+        if app.applicant_id != cust_id:
+            raise HTTPException(
+                status_code=status.HTTP_403_FORBIDDEN,
+                detail="Forbidden: Cannot view repayment schedules belonging to other borrowers"
+            )
 
     installments = db.query(RepaymentSchedule).filter(
         RepaymentSchedule.application_id == application_id

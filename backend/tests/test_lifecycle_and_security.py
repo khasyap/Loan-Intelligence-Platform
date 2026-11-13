@@ -22,6 +22,7 @@ from backend.app.services.security import (
     verify_password,
     create_access_token,
     decode_access_token,
+    get_current_user,
     DEMO_USERS
 )
 from backend.app.rules_engine.engine import apply_underwriter_override
@@ -161,4 +162,62 @@ def test_jwt_token_creation_and_validation():
     tampered = token[:-4] + "xxxx"
     with pytest.raises(HTTPException):
         decode_access_token(tampered)
+
+
+def test_expired_token_rejection():
+    user = DEMO_USERS["customer@bank.org"]
+    # Create expired token 1 hour in the past
+    expired_token = create_access_token(user, expires_delta=datetime.timedelta(hours=-1))
+    with pytest.raises(HTTPException) as excinfo:
+        decode_access_token(expired_token)
+    assert excinfo.value.status_code == 401
+    assert "Invalid or expired" in excinfo.value.detail
+
+
+def test_unauthenticated_request_rejected():
+    with pytest.raises(HTTPException) as excinfo:
+        get_current_user(credentials=None)
+    assert excinfo.value.status_code == 401
+    assert "not provided" in excinfo.value.detail
+
+
+def test_auth_me_sanitizes_credentials():
+    from backend.app.api.routers.auth import get_current_profile
+    user = DEMO_USERS["admin@bank.org"]
+    profile = get_current_profile(user=user)
+    profile_dict = profile.model_dump() if hasattr(profile, "model_dump") else (profile if isinstance(profile, dict) else profile.__dict__)
+    assert "password_hash" not in profile_dict
+    assert "password" not in profile_dict
+    assert "secret" not in profile_dict
+    assert (profile.email if hasattr(profile, "email") else profile_dict["email"]) == "admin@bank.org"
+    assert (profile.role if hasattr(profile, "role") else profile_dict["role"]) == "ADMIN"
+
+
+def test_all_demo_users_exclude_password_and_hash():
+    from backend.app.api.routers.auth import get_current_profile
+    for email, user in DEMO_USERS.items():
+        profile = get_current_profile(user=user)
+        p_dict = profile.model_dump() if hasattr(profile, "model_dump") else (profile if isinstance(profile, dict) else profile.__dict__)
+        assert "password_hash" not in p_dict
+        assert "password" not in p_dict
+        assert "secret_key" not in p_dict
+        assert p_dict["role"] in ["ADMIN", "RISK_REVIEWER", "OPERATIONS_ANALYST", "CUSTOMER"]
+        assert len(p_dict["email"]) > 0
+
+
+def test_profile_aware_anomaly_evaluation_regression():
+    from backend.app.evaluation.evaluator import evaluate_anomalies
+    gt = [
+        {"record_id": "REC-1", "issue_type": "INVALID_TERM"},
+        {"record_id": "REC-2", "issue_type": "SCHEDULE_RECONCILIATION_FAILURE"}
+    ]
+    det = [
+        {"record_id": "REC-1", "issue_type": "INVALID_TERM"},
+        {"record_id": "REC-2", "issue_type": "SCHEDULE_RECONCILIATION_FAILURE"}
+    ]
+    res = evaluate_anomalies(gt, det, profile="starter", seed=20261022)
+    assert res["metadata"]["profile"] == "starter"
+    assert res["summary"]["precision"] == 1.0
+    assert res["summary"]["recall"] == 1.0
+    assert res["summary"]["f1_score"] == 1.0
 

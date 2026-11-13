@@ -129,6 +129,14 @@ export const ExecutiveDashboard: React.FC = () => {
                 {kpis.rejection_rate}%
               </div>
             </div>
+            {kpis.dataset_profile && (
+              <div className="border-l border-slate-200 dark:border-slate-800 pl-4 hidden md:block">
+                <div className="text-xs text-slate-500 dark:text-slate-400">Active Profile</div>
+                <div className="text-xs font-semibold px-2 py-1 mt-0.5 rounded bg-cyan-50 dark:bg-cyan-950/60 text-cyan-700 dark:text-cyan-300 border border-cyan-200 dark:border-cyan-800">
+                  {kpis.dataset_profile}
+                </div>
+              </div>
+            )}
             <div className="border-l border-slate-200 dark:border-slate-800 pl-4">
               <ExportMenu
                 baseEndpoint="/exports/executive"

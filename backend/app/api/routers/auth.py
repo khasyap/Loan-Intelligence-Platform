@@ -37,8 +37,19 @@ def login(payload: LoginRequest):
         applicant_id=user.get("applicant_id")
     )
 
-@router.get("/me", response_model=Dict[str, Any])
+class UserProfileResponse(BaseModel):
+    email: str
+    name: str
+    role: str
+    applicant_id: str | None = None
+
+@router.get("/me", response_model=UserProfileResponse)
 def get_current_profile(user: Dict[str, Any] = Depends(get_current_user)):
-    """Retrieve profile of currently authenticated user session."""
-    return user
+    """Retrieve profile of currently authenticated user session (never exposes credentials)."""
+    return UserProfileResponse(
+        email=user.get("email") or user.get("sub") or "",
+        name=user.get("name") or "",
+        role=user.get("role") or "",
+        applicant_id=user.get("applicant_id")
+    )
 

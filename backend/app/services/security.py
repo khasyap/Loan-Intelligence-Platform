@@ -88,7 +88,7 @@ def create_access_token(user: Dict[str, Any], expires_delta: Optional[datetime.t
 
 
 def decode_access_token(token: str) -> Dict[str, Any]:
-    """Validates and decodes signed bearer token."""
+    """Validates and decodes signed bearer token, enforcing signature and expiration."""
     try:
         encoded, sig = token.split(".")
         expected_sig = hashlib.sha256((encoded + SECRET_KEY).encode("utf-8")).hexdigest()
@@ -96,6 +96,13 @@ def decode_access_token(token: str) -> Dict[str, Any]:
             raise ValueError("Invalid signature")
         payload_json = base64.urlsafe_b64decode(encoded.encode("utf-8")).decode("utf-8")
         payload = json.loads(payload_json)
+
+        # Enforce token expiration
+        if "exp" in payload:
+            exp_time = datetime.datetime.fromisoformat(payload["exp"])
+            if exp_time < datetime.datetime.now(datetime.timezone.utc):
+                raise ValueError("Token has expired")
+
         return payload
     except Exception:
         raise HTTPException(
@@ -106,12 +113,25 @@ def decode_access_token(token: str) -> Dict[str, Any]:
 
 
 def get_current_user(credentials: Optional[HTTPAuthorizationCredentials] = Security(security_scheme)) -> Dict[str, Any]:
-    """Extracts authenticated user from Bearer token. Falls back to default admin in demo sandbox if no header."""
+    """Extracts and verifies authenticated user from Bearer token."""
     if not credentials:
-        # Default unauthenticated fallback in demo mode: Return System Administrator
-        return DEMO_USERS["admin@bank.org"]
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Authentication credentials were not provided",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
     token = credentials.credentials
     return decode_access_token(token)
+
+
+def get_optional_current_user(credentials: Optional[HTTPAuthorizationCredentials] = Security(security_scheme)) -> Optional[Dict[str, Any]]:
+    """Extracts authenticated user from Bearer token if provided, otherwise returns None."""
+    if not credentials:
+        return None
+    try:
+        return decode_access_token(credentials.credentials)
+    except Exception:
+        return None
 
 
 def require_role(allowed_roles: List[str]):

@@ -22,6 +22,8 @@ from backend.app.calculations.financial import (
 )
 from backend.app.rules_engine.engine import evaluate_application
 
+from backend.app.services.security import get_optional_current_user
+
 router = APIRouter(prefix="/applications", tags=["Loan Applications"])
 
 @router.get("", response_model=List[ApplicationSummary])
@@ -30,11 +32,15 @@ def list_applications(
     product_id: Optional[str] = None,
     skip: int = Query(0, ge=0),
     limit: int = Query(50, ge=1, le=500),
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    user: Optional[Dict[str, Any]] = Depends(get_optional_current_user)
 ):
-    """Retrieve loan applications with status and product filters."""
+    """Retrieve loan applications with status and product filters. Enforces customer data isolation."""
     q = db.query(LoanApplication)
-    if status:
+    if isinstance(user, dict) and user.get("role") == "CUSTOMER":
+        cust_id = user.get("applicant_id") or "APP-2026-000001"
+        q = q.filter(LoanApplication.applicant_id == cust_id)
+    elif status:
         q = q.filter(LoanApplication.application_status == status)
     if product_id:
         q = q.filter(LoanApplication.product_id == product_id)
@@ -42,11 +48,23 @@ def list_applications(
 
 
 @router.get("/{application_id}")
-def get_application_detail(application_id: str, db: Session = Depends(get_db)):
+def get_application_detail(
+    application_id: str, 
+    db: Session = Depends(get_db),
+    user: Optional[Dict[str, Any]] = Depends(get_optional_current_user)
+):
     """Retrieve comprehensive application detail with rules trace, documents, and repayment plan."""
     app = db.query(LoanApplication).filter(LoanApplication.application_id == application_id).first()
     if not app:
         raise HTTPException(status_code=404, detail="Application not found")
+
+    if isinstance(user, dict) and user.get("role") == "CUSTOMER":
+        cust_id = user.get("applicant_id") or "APP-2026-000001"
+        if app.applicant_id != cust_id:
+            raise HTTPException(
+                status_code=status.HTTP_403_FORBIDDEN,
+                detail="Forbidden: Cannot view loan applications belonging to other borrowers"
+            )
 
     applicant = db.query(Applicant).filter(Applicant.applicant_id == app.applicant_id).first()
     product = db.query(LoanProduct).filter(LoanProduct.product_id == app.product_id).first()

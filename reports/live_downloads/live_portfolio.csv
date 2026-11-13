@@ -1,0 +1,10 @@
+﻿Metric,Value,Unit / Context
+Total Master Applicants,200,Synthesized Master Borrowers
+Total Applications,120,Total Origination Volume
+Approved Applications,33,Approval Rate: 27.5%
+Rejected Applications,65,Rejection Rate: 54.17%
+Manual Review Queue,9,Borderline Exception Queue
+Pending Information,13,KYC / Income Verification
+Total Requested Principal,279885000.0,INR
+Total Approved Principal,41280000.0,INR
+Total Disbursed Principal,30930000.0,INR

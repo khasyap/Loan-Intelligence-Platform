@@ -1,6 +1,7 @@
 export interface ExecutiveKPIs {
   total_applicants: number;
   total_applications: number;
+  dataset_profile?: string;
   approved_count: number;
   rejected_count: number;
   manual_review_count: number;

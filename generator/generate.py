@@ -134,10 +134,18 @@ def run_pipeline(profile: str = "starter", custom_seed: int = 20261022, seed_db:
     )
     detected_dicts = [d.to_dict() for d in detected]
 
-    # Evaluation against ground truth
-    eval_results = evaluate_anomalies(ground_truth, detected_dicts)
+    # Evaluation against ground truth with active profile metadata
+    eval_results = evaluate_anomalies(
+        ground_truth,
+        detected_dicts,
+        profile=profile,
+        seed=custom_seed,
+        generation_version="v1.0.0"
+    )
     os.makedirs("reports", exist_ok=True)
     with open("reports/anomaly_evaluation.json", "w", encoding="utf-8") as f:
+        json.dump(eval_results, f, indent=2)
+    with open(f"reports/anomaly_evaluation_{profile}.json", "w", encoding="utf-8") as f:
         json.dump(eval_results, f, indent=2)
 
     end_time = datetime.datetime.now(datetime.timezone.utc)

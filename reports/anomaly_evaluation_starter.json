@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "profile": "starter",
+    "seed": 20261022,
+    "generation_version": "v1.0.0",
+    "evaluation_timestamp": "2026-11-13T12:00:59.061554+00:00",
+    "expected_anomalies": 25,
+    "actual_detected": 25
+  },
+  "summary": {
+    "total_ground_truth": 25,
+    "total_detected": 25,
+    "true_positives": 25,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0
+  },
+  "category_breakdown": {
+    "INVALID_TERM": {
+      "ground_truth_count": 5,
+      "detected_count": 5,
+      "true_positives": 5,
+      "false_negatives": 0,
+      "false_positives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "SCHEDULE_RECONCILIATION_FAILURE": {
+      "ground_truth_count": 5,
+      "detected_count": 5,
+      "true_positives": 5,
+      "false_negatives": 0,
+      "false_positives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "DECISION_BEFORE_CHECKS": {
+      "ground_truth_count": 5,
+      "detected_count": 5,
+      "true_positives": 5,
+      "false_negatives": 0,
+      "false_positives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "INCOME_SOURCE_CONFLICT": {
+      "ground_truth_count": 5,
+      "detected_count": 5,
+      "true_positives": 5,
+      "false_negatives": 0,
+      "false_positives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "DUPLICATE_DISBURSEMENT": {
+      "ground_truth_count": 5,
+      "detected_count": 5,
+      "true_positives": 5,
+      "false_negatives": 0,
+      "false_positives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    }
+  }
+}

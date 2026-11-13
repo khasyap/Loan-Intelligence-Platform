@@ -268,6 +268,14 @@ erDiagram
 | **R16** | `Applicant` | `CreditProfile` | 1:N | `applicant_id` | `CASCADE` | Grounded historical bureau credit snapshots and score tracking. |
 | **R17** | `Decision` | `DecisionOverrideHistory` | 1:N | `decision_id` | `CASCADE` | Regulatory compliance audit trail for human underwriter overrides. |
 
+### CreditProfile 1:N Historical Cardinality & Active Profile Resolution
+The relationship between `Applicant` and `CreditProfile` is defined as **1:N (One-to-Many)**:
+- **Business Purpose**: Borrowers undergo recurring credit bureau pulls across their financial lifecycle. Preserving historical snapshots allows underwriters to audit score migration, delinquency aging, and credit utilization trends.
+- **Temporal Versioning**: Every credit profile record carries an `assessment_date`, `score_version`, and `source_type`.
+- **Active Profile Resolution**: When loan evaluation or risk scoring queries an applicant's profile, the active profile is selected via deterministic ordering:
+  `ORDER BY assessment_date DESC, created_at DESC LIMIT 1`
+- In the initial baseline benchmark dataset, each applicant possesses an initial baseline snapshot (10,000 records across 10,000 applicants). New credit assessments append subsequent snapshots without mutating past history.
+
 ---
 
 ## 3. Database Indexes for High-Performance Queries

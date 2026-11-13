@@ -30,7 +30,7 @@
     "f1_score": 1.0
   },
   "system_turnaround": {
-    "total_processing_seconds": 0.12,
-    "average_application_processing_ms": 1.0
+    "total_processing_seconds": 0.07,
+    "average_application_processing_ms": 0.6
   }
 }

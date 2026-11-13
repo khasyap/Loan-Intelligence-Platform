@@ -35,10 +35,16 @@ def get_executive_kpis(db: Session = Depends(get_db)):
 
     approval_rate = (approved_count / total_applications * 100) if total_applications > 0 else 0.0
     rejection_rate = (rejected_count / total_applications * 100) if total_applications > 0 else 0.0
+    
+    dataset_profile = (
+        "STARTER (Cloud Demo)" if total_applicants <= 500
+        else ("MEDIUM (Integration)" if total_applicants <= 5000 else "FULL (Production Benchmark)")
+    )
 
     return {
         "total_applicants": total_applicants,
         "total_applications": total_applications,
+        "dataset_profile": dataset_profile,
         "approved_count": approved_count,
         "rejected_count": rejected_count,
         "manual_review_count": manual_review_count,

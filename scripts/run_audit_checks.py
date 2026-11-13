@@ -181,14 +181,15 @@ def audit_section_2_anomalies():
     gt_rows = cursor.execute("SELECT anomaly_id, entity_name, issue_type, severity FROM ground_truth_anomalies").fetchall()
     conn.close()
     
-    assert len(gt_rows) == 300, f"Expected 300 ground truth anomalies, got {len(gt_rows)}"
+    gt_count = len(gt_rows)
+    assert gt_count in (25, 100, 300), f"Expected 25, 100, or 300 ground truth anomalies, got {gt_count}"
     
     categories = {}
     for row in gt_rows:
         itype = row[2]
         categories[itype] = categories.get(itype, 0) + 1
         
-    print(f"  Ground Truth Categories Count: {categories}")
+    print(f"  Ground Truth Categories Count ({gt_count} total): {categories}")
     expected_categories = [
         "INVALID_TERM",
         "SCHEDULE_RECONCILIATION_FAILURE",
@@ -196,10 +197,11 @@ def audit_section_2_anomalies():
         "INCOME_SOURCE_CONFLICT",
         "DUPLICATE_DISBURSEMENT"
     ]
+    expected_per_cat = gt_count // 5
     for c in expected_categories:
         assert c in categories, f"Missing anomaly category {c}"
-        assert categories[c] == 60, f"Expected 60 anomalies in {c}, got {categories[c]}"
-    print("  [PASS] All 5 mandatory anomaly categories represented with exactly 60 anomalies each.")
+        assert categories[c] == expected_per_cat, f"Expected {expected_per_cat} anomalies in {c}, got {categories[c]}"
+    print(f"  [PASS] All 5 mandatory anomaly categories represented with exactly {expected_per_cat} anomalies each.")
     
     # 2. Anomaly Staging Layer vs Ground Truth separation
     # Read staged anomalies from data/anomalies/
@@ -232,8 +234,9 @@ def audit_section_2_anomalies():
     prec = sm["precision"]
     rec = sm["recall"]
     f1 = sm["f1_score"]
+    report_profile = eval_report.get("metadata", {}).get("profile", "starter")
     
-    print(f"  Independent Detector Evaluation:")
+    print(f"  Independent Detector Evaluation (Report Profile: {report_profile}):")
     print(f"    True Positives  (TP): {tp}")
     print(f"    False Positives (FP): {fp}")
     print(f"    False Negatives (FN): {fn}")
@@ -241,13 +244,15 @@ def audit_section_2_anomalies():
     print(f"    Recall:    {rec:.4f}")
     print(f"    F1 Score:  {f1:.4f}")
     
-    assert tp == 300
-    assert fp == 0
-    assert fn == 0
-    assert prec == 1.0
-    assert rec == 1.0
-    assert f1 == 1.0
-    print("  [PASS] Anomaly Detector achieved 100% Precision, Recall, and F1.")
+    # Profile-aware dynamic verification (supports starter: 25, medium: 100, full: 300)
+    assert tp == sm["total_ground_truth"], f"TP ({tp}) != ground truth total ({sm['total_ground_truth']})"
+    assert tp in (25, 100, 300), f"Unexpected anomaly count {tp}"
+    assert fp == 0, f"Unexpected false positives: {fp}"
+    assert fn == 0, f"Unexpected false negatives: {fn}"
+    assert prec == 1.0, f"Precision is {prec}, expected 1.0"
+    assert rec == 1.0, f"Recall is {rec}, expected 1.0"
+    assert f1 == 1.0, f"F1 score is {f1}, expected 1.0"
+    print(f"  [PASS] Anomaly Detector achieved 100% Precision, Recall, and F1 across {tp} anomalies.")
     
     # 4. Duplicate disbursement handling
     # Verify operational DB enforces UNIQUE constraint on successful disbursements
@@ -260,7 +265,7 @@ def audit_section_2_anomalies():
     
     # Verify staged duplicates exist in staged exception pool
     staged_dups = staged_data.get("disbursements", [])
-    assert len(staged_dups) == 60, f"Expected 60 staged duplicate disbursements, got {len(staged_dups)}"
+    assert len(staged_dups) in (5, 20, 60), f"Unexpected staged duplicate count: {len(staged_dups)}"
     print(f"  [PASS] Staged duplicate disbursements ({len(staged_dups)}) safely isolated in staging layer.")
     conn.close()
 

@@ -105,6 +105,12 @@ Format: `CP-2026-XXXXXX`
 | `score_version` | VARCHAR(16) | Yes | - | `v1.0.0` | String | Source | Scoring algorithm version specification |
 | `source_type` | VARCHAR(32) | Yes | - | `SYNTHETIC_BUREAU_V1` | Enum | Source | Grounded bureau origin indicator |
 
+> **Cardinality & Active Profile Resolution:**
+> The relationship between `Applicant` and `CreditProfile` is **1:N (Historical One-to-Many)**.
+> When querying an applicant's current credit profile for underwriting decisions or risk calculations, the active profile is selected using:
+> `SELECT * FROM credit_profiles WHERE applicant_id = :id ORDER BY assessment_date DESC, created_at DESC LIMIT 1`.
+> In the single-snapshot baseline seed, exactly 1 profile exists per applicant (10,000 profiles for 10,000 applicants). New bureau updates append historical records without mutating prior credit assessments.
+
 
 ---
 
