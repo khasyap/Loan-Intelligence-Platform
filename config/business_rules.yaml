@@ -1,0 +1,136 @@
+# Business Rules & Decision Policy Configuration
+version: "v1.0.0"
+policy_effective_date: "2026-01-01"
+
+# 4 Configurable Loan Products
+products:
+  - product_id: "PROD-001"
+    product_name: "Express Personal Loan"
+    product_type: "PERSONAL"
+    min_principal: 25000.00
+    max_principal: 1500000.00
+    min_term_months: 6
+    max_term_months: 60
+    annual_interest_rate: 11.50
+    processing_fee_rate: 1.50
+    maximum_dti: 45.00
+    maximum_foir: 55.00
+    minimum_credit_score: 650
+    product_status: "ACTIVE"
+
+  - product_id: "PROD-002"
+    product_name: "Prime Auto Loan"
+    product_type: "AUTO"
+    min_principal: 100000.00
+    max_principal: 3000000.00
+    min_term_months: 12
+    max_term_months: 84
+    annual_interest_rate: 8.75
+    processing_fee_rate: 1.00
+    maximum_dti: 50.00
+    maximum_foir: 60.00
+    minimum_credit_score: 680
+    product_status: "ACTIVE"
+
+  - product_id: "PROD-003"
+    product_name: "Affordable Home Loan"
+    product_type: "HOME"
+    min_principal: 500000.00
+    max_principal: 15000000.00
+    min_term_months: 60
+    max_term_months: 360
+    annual_interest_rate: 7.25
+    processing_fee_rate: 0.50
+    maximum_dti: 55.00
+    maximum_foir: 65.00
+    minimum_credit_score: 700
+    product_status: "ACTIVE"
+
+  - product_id: "PROD-004"
+    product_name: "SME Working Capital Loan"
+    product_type: "BUSINESS"
+    min_principal: 200000.00
+    max_principal: 5000000.00
+    min_term_months: 12
+    max_term_months: 60
+    annual_interest_rate: 13.00
+    processing_fee_rate: 2.00
+    maximum_dti: 40.00
+    maximum_foir: 50.00
+    minimum_credit_score: 660
+    product_status: "ACTIVE"
+
+# 10 Deterministic Decision Rules
+rules:
+  - rule_id: "RULE_01"
+    rule_name: "Product Eligibility Limits"
+    priority: 1
+    severity: "HARD_FAIL"
+    description: "Principal and term must fall within product allowed boundaries."
+    action_if_failed: "REJECT"
+
+  - rule_id: "RULE_02"
+    rule_name: "Minimum Credit Score"
+    priority: 2
+    severity: "HARD_FAIL"
+    description: "Applicant credit score must be >= product minimum cutoff."
+    action_if_failed: "REJECT"
+
+  - rule_id: "RULE_03"
+    rule_name: "Debt-to-Income (DTI) Limit"
+    priority: 3
+    severity: "HARD_FAIL"
+    description: "DTI above 1.25x maximum leads to REJECT; above 1.0x leads to MANUAL_REVIEW."
+    hard_multiplier: 1.25
+
+  - rule_id: "RULE_04"
+    rule_name: "Fixed Obligation to Income Ratio (FOIR)"
+    priority: 4
+    severity: "HARD_FAIL"
+    description: "FOIR above 1.15x maximum leads to REJECT; above 1.0x leads to MANUAL_REVIEW."
+    hard_multiplier: 1.15
+
+  - rule_id: "RULE_05"
+    rule_name: "Mandatory Income Proof"
+    priority: 5
+    severity: "SOFT_FAIL"
+    description: "Verified salary slip or bank statement required."
+    action_if_failed: "PENDING_INFORMATION"
+
+  - rule_id: "RULE_06"
+    rule_name: "Employment Stability"
+    priority: 6
+    severity: "SOFT_FAIL"
+    description: "Continuous employment tenure must be at least 6 months."
+    min_tenure_months: 6
+    action_if_failed: "MANUAL_REVIEW"
+
+  - rule_id: "RULE_07"
+    rule_name: "Duplicate Active Application"
+    priority: 7
+    severity: "SOFT_FAIL"
+    description: "No concurrent pending application for the same applicant."
+    action_if_failed: "MANUAL_REVIEW"
+
+  - rule_id: "RULE_08"
+    rule_name: "Borderline Credit Score"
+    priority: 8
+    severity: "SOFT_FAIL"
+    description: "Score within 25 points of cutoff triggers manual underwriter review."
+    buffer_points: 25
+    action_if_failed: "MANUAL_REVIEW"
+
+  - rule_id: "RULE_09"
+    rule_name: "Document Verification Failure"
+    priority: 9
+    severity: "HARD_FAIL"
+    description: "Rejected or expired KYC/ID documents block auto-approval."
+    action_if_failed: "REJECT"
+
+  - rule_id: "RULE_10"
+    rule_name: "Clean Application Approval"
+    priority: 10
+    severity: "PASS"
+    description: "All underwriting and affordability criteria satisfied."
+    action: "APPROVED"
+

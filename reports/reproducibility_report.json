@@ -1,0 +1,93 @@
+{
+  "seed": 20261022,
+  "profile": "starter",
+  "total_files_compared": 14,
+  "all_checksums_matched": true,
+  "status": "PASSED",
+  "file_comparisons": [
+    {
+      "file": "affordability_checks.csv",
+      "run1_sha256": "e09897ade7e7700f96c8aaf2445ac8dfad7e8c1b1561ac6cab3afbb0b42aaa14",
+      "run2_sha256": "e09897ade7e7700f96c8aaf2445ac8dfad7e8c1b1561ac6cab3afbb0b42aaa14",
+      "match": true
+    },
+    {
+      "file": "applicants.csv",
+      "run1_sha256": "25ca8f807063d128d29a9dfe553e692b8f3a63cbfbbca4743902184aced00bb4",
+      "run2_sha256": "25ca8f807063d128d29a9dfe553e692b8f3a63cbfbbca4743902184aced00bb4",
+      "match": true
+    },
+    {
+      "file": "application_status_history.csv",
+      "run1_sha256": "98be5b5928fa5a4c9ac3a0e2ae7c40f006c9cf44a2071912a8195e77dc8505d4",
+      "run2_sha256": "98be5b5928fa5a4c9ac3a0e2ae7c40f006c9cf44a2071912a8195e77dc8505d4",
+      "match": true
+    },
+    {
+      "file": "credit_facilities.csv",
+      "run1_sha256": "bf8fc71b09d118de296349b582f0e89dccd8a239f8437e3bcf4e85bc48c73578",
+      "run2_sha256": "bf8fc71b09d118de296349b582f0e89dccd8a239f8437e3bcf4e85bc48c73578",
+      "match": true
+    },
+    {
+      "file": "credit_profiles.csv",
+      "run1_sha256": "77e0283d32cc7c1bfe35ac2e3ec9621eb3c5059c12ca602c226fff4dcf5e55be",
+      "run2_sha256": "77e0283d32cc7c1bfe35ac2e3ec9621eb3c5059c12ca602c226fff4dcf5e55be",
+      "match": true
+    },
+    {
+      "file": "decisions.csv",
+      "run1_sha256": "62339b78f9be167747a624ddfa70b809a5e8589bd6a7e09aa9f39879aa5ef04d",
+      "run2_sha256": "62339b78f9be167747a624ddfa70b809a5e8589bd6a7e09aa9f39879aa5ef04d",
+      "match": true
+    },
+    {
+      "file": "disbursements.csv",
+      "run1_sha256": "ae3e782c1925e1b14fe96c00f52d8153a0db70113fe7a8a1a37d401a7b2dbc56",
+      "run2_sha256": "ae3e782c1925e1b14fe96c00f52d8153a0db70113fe7a8a1a37d401a7b2dbc56",
+      "match": true
+    },
+    {
+      "file": "documents.csv",
+      "run1_sha256": "af043df1f708c62d5ab0adf291fb7396d8bbf4aa3e94c9800a144ff206a5e1cb",
+      "run2_sha256": "af043df1f708c62d5ab0adf291fb7396d8bbf4aa3e94c9800a144ff206a5e1cb",
+      "match": true
+    },
+    {
+      "file": "employments.csv",
+      "run1_sha256": "6bd8636929e6988eef4296dad9e27818ffd0b3a4cb878c9e630428c37da042fd",
+      "run2_sha256": "6bd8636929e6988eef4296dad9e27818ffd0b3a4cb878c9e630428c37da042fd",
+      "match": true
+    },
+    {
+      "file": "ground_truth.csv",
+      "run1_sha256": "71ec35f75e5e8861d73ea70c13c0b171866ebc62a67f5712da7a7466d8312c2a",
+      "run2_sha256": "71ec35f75e5e8861d73ea70c13c0b171866ebc62a67f5712da7a7466d8312c2a",
+      "match": true
+    },
+    {
+      "file": "income_records.csv",
+      "run1_sha256": "d31abcba6f35098c20e89530481e44bd557e521561b3abfde3df7570f4f0b446",
+      "run2_sha256": "d31abcba6f35098c20e89530481e44bd557e521561b3abfde3df7570f4f0b446",
+      "match": true
+    },
+    {
+      "file": "loan_applications.csv",
+      "run1_sha256": "b79121615a5e51d7504d74485223fa8b1a21502ff4da13b9c001fedbea576b90",
+      "run2_sha256": "b79121615a5e51d7504d74485223fa8b1a21502ff4da13b9c001fedbea576b90",
+      "match": true
+    },
+    {
+      "file": "loan_products.csv",
+      "run1_sha256": "cebc17440973fbb84b357ca115cd9b3b17544eec98aedfe005c04cfbb3a7e98e",
+      "run2_sha256": "cebc17440973fbb84b357ca115cd9b3b17544eec98aedfe005c04cfbb3a7e98e",
+      "match": true
+    },
+    {
+      "file": "repayment_schedules.csv",
+      "run1_sha256": "63578f85d50549d1cbcefc684bb400217028f40cda08efd80a2f810227808660",
+      "run2_sha256": "63578f85d50549d1cbcefc684bb400217028f40cda08efd80a2f810227808660",
+      "match": true
+    }
+  ]
+}

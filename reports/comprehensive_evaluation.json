@@ -1,0 +1,36 @@
+{
+  "portfolio_overview": {
+    "total_applicants": 200,
+    "total_applications": 120,
+    "approved_count": 33,
+    "rejected_count": 65,
+    "manual_review_count": 9,
+    "pending_info_count": 13,
+    "approval_rate_pct": 27.5,
+    "rejection_rate_pct": 54.17,
+    "manual_review_rate_pct": 7.5,
+    "pending_info_rate_pct": 10.83
+  },
+  "quality_and_compliance": {
+    "decision_rule_consistency_pct": 100.0,
+    "financial_calculation_error_rate_pct": 0.0,
+    "repayment_reconciliation_rate_pct": 100.0,
+    "referential_integrity_rate_pct": 100.0,
+    "prohibited_features_detected": [],
+    "fair_lending_compliance_pass": true
+  },
+  "anomaly_detection_performance": {
+    "total_ground_truth": 25,
+    "total_detected": 25,
+    "true_positives": 25,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0
+  },
+  "system_turnaround": {
+    "total_processing_seconds": 0.12,
+    "average_application_processing_ms": 1.0
+  }
+}

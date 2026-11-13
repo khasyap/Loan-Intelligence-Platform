@@ -1,0 +1,61 @@
+{
+  "manifest_version": "1.0.0",
+  "dataset_name": "Synthetic Loan Origination, Risk Assessment & Decision Intelligence Benchmark",
+  "dataset_description": "Parametric synthetic financial datasets synthesized for loan origination, credit risk assessment, explainable underwriting, repayment amortization, and anomaly detection.",
+  "provenance": {
+    "is_fully_synthetic": true,
+    "external_source": null,
+    "retrieval_date": null,
+    "license": "CC-BY-4.0 / Open Synthetic Financial Benchmark License",
+    "attribution": "Google DeepMind Hackathon - Loan Intelligence Platform Synthetic Architecture",
+    "privacy_statement": "100% synthetic dataset generated through mathematical distributions and pseudorandom identity synthesis. Contains zero personal identifiable information (PII) from living individuals, no scraped consumer credit bureau data, and no private financial account data."
+  },
+  "generation_metadata": {
+    "generator_version": "v1.0.0",
+    "global_seed": 20261022,
+    "generation_year": 2026,
+    "default_currency": "INR",
+    "supported_profiles": {
+      "starter": { "applicants": 200, "applications": 120, "anomalies": 25 },
+      "medium": { "applicants": 2000, "applications": 1200, "anomalies": 100 },
+      "full": { "applicants": 10000, "applications": 6000, "anomalies": 300 }
+    }
+  },
+  "mathematical_models": {
+    "credit_score_model": "Behavioral derivation from active credit facilities, revolving utilization, on-time payment ratio, overdue facilities penalty, and delinquency deductions clamped to [300, 900].",
+    "amortization_model": "Reducing balance monthly compounding with final installment penny-rounding reconciliation.",
+    "affordability_models": [
+      "Existing Debt-to-Gross-Income (Existing DTI)",
+      "Total Debt-to-Gross-Income (Total DTI)",
+      "Fixed Obligation to Net-Income (FOIR)",
+      "Disposable Monthly Income"
+    ]
+  },
+  "fair_lending_compliance": {
+    "zero_protected_attributes": true,
+    "omitted_fields": [
+      "gender",
+      "race",
+      "ethnicity",
+      "religion",
+      "disability_status",
+      "sexual_orientation",
+      "marital_status",
+      "caste",
+      "political_affiliation"
+    ],
+    "rationale": "Strict compliance with Equal Credit Opportunity Act (ECOA) and non-discriminatory lending regulations: protected demographic traits are omitted from collection, scoring, and underwriting decision rules."
+  },
+  "anomaly_injection_protocol": {
+    "total_mandatory_categories": 5,
+    "categories": [
+      "INVALID_TERM",
+      "SCHEDULE_RECONCILIATION_FAILURE",
+      "DECISION_BEFORE_CHECKS",
+      "INCOME_SOURCE_CONFLICT",
+      "DUPLICATE_DISBURSEMENT"
+    ],
+    "storage_architecture": "Isolated Anomaly Staging / Exception Layer (data/anomalies/ and data/ground_truth.*) strictly segregated from operational core database."
+  }
+}
+

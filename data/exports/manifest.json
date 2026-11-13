@@ -1,0 +1,89 @@
+{
+  "files": [
+    {
+      "table": "applicants",
+      "csv_path": "data\\exports\\csv\\applicants.csv",
+      "csv_sha256": "25ca8f807063d128d29a9dfe553e692b8f3a63cbfbbca4743902184aced00bb4",
+      "record_count": 200
+    },
+    {
+      "table": "employments",
+      "csv_path": "data\\exports\\csv\\employments.csv",
+      "csv_sha256": "6bd8636929e6988eef4296dad9e27818ffd0b3a4cb878c9e630428c37da042fd",
+      "record_count": 200
+    },
+    {
+      "table": "income_records",
+      "csv_path": "data\\exports\\csv\\income_records.csv",
+      "csv_sha256": "d31abcba6f35098c20e89530481e44bd557e521561b3abfde3df7570f4f0b446",
+      "record_count": 229
+    },
+    {
+      "table": "credit_facilities",
+      "csv_path": "data\\exports\\csv\\credit_facilities.csv",
+      "csv_sha256": "bf8fc71b09d118de296349b582f0e89dccd8a239f8437e3bcf4e85bc48c73578",
+      "record_count": 282
+    },
+    {
+      "table": "credit_profiles",
+      "csv_path": "data\\exports\\csv\\credit_profiles.csv",
+      "csv_sha256": "77e0283d32cc7c1bfe35ac2e3ec9621eb3c5059c12ca602c226fff4dcf5e55be",
+      "record_count": 200
+    },
+    {
+      "table": "loan_products",
+      "csv_path": "data\\exports\\csv\\loan_products.csv",
+      "csv_sha256": "cebc17440973fbb84b357ca115cd9b3b17544eec98aedfe005c04cfbb3a7e98e",
+      "record_count": 4
+    },
+    {
+      "table": "loan_applications",
+      "csv_path": "data\\exports\\csv\\loan_applications.csv",
+      "csv_sha256": "b79121615a5e51d7504d74485223fa8b1a21502ff4da13b9c001fedbea576b90",
+      "record_count": 120
+    },
+    {
+      "table": "documents",
+      "csv_path": "data\\exports\\csv\\documents.csv",
+      "csv_sha256": "af043df1f708c62d5ab0adf291fb7396d8bbf4aa3e94c9800a144ff206a5e1cb",
+      "record_count": 466
+    },
+    {
+      "table": "affordability_checks",
+      "csv_path": "data\\exports\\csv\\affordability_checks.csv",
+      "csv_sha256": "e09897ade7e7700f96c8aaf2445ac8dfad7e8c1b1561ac6cab3afbb0b42aaa14",
+      "record_count": 120
+    },
+    {
+      "table": "decisions",
+      "csv_path": "data\\exports\\csv\\decisions.csv",
+      "csv_sha256": "62339b78f9be167747a624ddfa70b809a5e8589bd6a7e09aa9f39879aa5ef04d",
+      "record_count": 120
+    },
+    {
+      "table": "repayment_schedules",
+      "csv_path": "data\\exports\\csv\\repayment_schedules.csv",
+      "csv_sha256": "63578f85d50549d1cbcefc684bb400217028f40cda08efd80a2f810227808660",
+      "record_count": 2118
+    },
+    {
+      "table": "application_status_history",
+      "csv_path": "data\\exports\\csv\\application_status_history.csv",
+      "csv_sha256": "98be5b5928fa5a4c9ac3a0e2ae7c40f006c9cf44a2071912a8195e77dc8505d4",
+      "record_count": 360
+    },
+    {
+      "table": "disbursements",
+      "csv_path": "data\\exports\\csv\\disbursements.csv",
+      "csv_sha256": "ae3e782c1925e1b14fe96c00f52d8153a0db70113fe7a8a1a37d401a7b2dbc56",
+      "record_count": 26
+    },
+    {
+      "table": "ground_truth",
+      "csv_path": "data\\ground_truth.csv",
+      "csv_sha256": "71ec35f75e5e8861d73ea70c13c0b171866ebc62a67f5712da7a7466d8312c2a",
+      "record_count": 25
+    }
+  ],
+  "total_records": 4445
+}

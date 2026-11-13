@@ -1,0 +1,3242 @@
+[
+  {
+    "history_id": "HIST-000001",
+    "application_id": "LOAN-2026-000001",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 10:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000002",
+    "application_id": "LOAN-2026-000001",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 12:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000003",
+    "application_id": "LOAN-2026-000001",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 13:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000004",
+    "application_id": "LOAN-2026-000002",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 10:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000005",
+    "application_id": "LOAN-2026-000002",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 12:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000006",
+    "application_id": "LOAN-2026-000002",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 13:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000007",
+    "application_id": "LOAN-2026-000003",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 10:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000008",
+    "application_id": "LOAN-2026-000003",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 12:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000009",
+    "application_id": "LOAN-2026-000003",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 13:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_CREDIT_SCORE_BELOW_MIN)"
+  },
+  {
+    "history_id": "HIST-000010",
+    "application_id": "LOAN-2026-000004",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 10:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000011",
+    "application_id": "LOAN-2026-000004",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 12:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000012",
+    "application_id": "LOAN-2026-000004",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-15 13:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000013",
+    "application_id": "LOAN-2026-000005",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 11:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000014",
+    "application_id": "LOAN-2026-000005",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 13:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000015",
+    "application_id": "LOAN-2026-000005",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-15 14:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000016",
+    "application_id": "LOAN-2026-000006",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 11:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000017",
+    "application_id": "LOAN-2026-000006",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 13:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000018",
+    "application_id": "LOAN-2026-000006",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 14:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_CREDIT_SCORE_BELOW_MIN)"
+  },
+  {
+    "history_id": "HIST-000019",
+    "application_id": "LOAN-2026-000007",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 11:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000020",
+    "application_id": "LOAN-2026-000007",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 13:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000021",
+    "application_id": "LOAN-2026-000007",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 14:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000022",
+    "application_id": "LOAN-2026-000008",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 11:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000023",
+    "application_id": "LOAN-2026-000008",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 13:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000024",
+    "application_id": "LOAN-2026-000008",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "PENDING_INFORMATION",
+    "changed_at": "2026-01-15 14:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: PENDING_INFORMATION (REV_DOC_EXPIRED)"
+  },
+  {
+    "history_id": "HIST-000025",
+    "application_id": "LOAN-2026-000009",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 11:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000026",
+    "application_id": "LOAN-2026-000009",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 13:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000027",
+    "application_id": "LOAN-2026-000009",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-15 14:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000028",
+    "application_id": "LOAN-2026-000010",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 12:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000029",
+    "application_id": "LOAN-2026-000010",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 14:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000030",
+    "application_id": "LOAN-2026-000010",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 15:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000031",
+    "application_id": "LOAN-2026-000011",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 12:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000032",
+    "application_id": "LOAN-2026-000011",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 14:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000033",
+    "application_id": "LOAN-2026-000011",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 15:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000034",
+    "application_id": "LOAN-2026-000012",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 12:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000035",
+    "application_id": "LOAN-2026-000012",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 14:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000036",
+    "application_id": "LOAN-2026-000012",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 15:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000037",
+    "application_id": "LOAN-2026-000013",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 12:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000038",
+    "application_id": "LOAN-2026-000013",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 14:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000039",
+    "application_id": "LOAN-2026-000013",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "PENDING_INFORMATION",
+    "changed_at": "2026-01-15 15:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: PENDING_INFORMATION (REV_INCOME_PROOF_MISSING)"
+  },
+  {
+    "history_id": "HIST-000040",
+    "application_id": "LOAN-2026-000014",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 12:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000041",
+    "application_id": "LOAN-2026-000014",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 14:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000042",
+    "application_id": "LOAN-2026-000014",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 15:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_PRODUCT_LIMITS_BREACH)"
+  },
+  {
+    "history_id": "HIST-000043",
+    "application_id": "LOAN-2026-000015",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 13:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000044",
+    "application_id": "LOAN-2026-000015",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 15:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000045",
+    "application_id": "LOAN-2026-000015",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "PENDING_INFORMATION",
+    "changed_at": "2026-01-15 16:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: PENDING_INFORMATION (REV_DOC_EXPIRED)"
+  },
+  {
+    "history_id": "HIST-000046",
+    "application_id": "LOAN-2026-000016",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 13:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000047",
+    "application_id": "LOAN-2026-000016",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 15:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000048",
+    "application_id": "LOAN-2026-000016",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 16:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000049",
+    "application_id": "LOAN-2026-000017",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 13:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000050",
+    "application_id": "LOAN-2026-000017",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 15:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000051",
+    "application_id": "LOAN-2026-000017",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "PENDING_INFORMATION",
+    "changed_at": "2026-01-15 16:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: PENDING_INFORMATION (REV_DOC_EXPIRED)"
+  },
+  {
+    "history_id": "HIST-000052",
+    "application_id": "LOAN-2026-000018",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 13:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000053",
+    "application_id": "LOAN-2026-000018",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 15:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000054",
+    "application_id": "LOAN-2026-000018",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 16:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000055",
+    "application_id": "LOAN-2026-000019",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 13:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000056",
+    "application_id": "LOAN-2026-000019",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 15:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000057",
+    "application_id": "LOAN-2026-000019",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 16:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000058",
+    "application_id": "LOAN-2026-000020",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 14:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000059",
+    "application_id": "LOAN-2026-000020",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 16:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000060",
+    "application_id": "LOAN-2026-000020",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-15 17:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000061",
+    "application_id": "LOAN-2026-000021",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 14:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000062",
+    "application_id": "LOAN-2026-000021",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 16:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000063",
+    "application_id": "LOAN-2026-000021",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 17:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000064",
+    "application_id": "LOAN-2026-000022",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 14:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000065",
+    "application_id": "LOAN-2026-000022",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 16:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000066",
+    "application_id": "LOAN-2026-000022",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-15 17:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000067",
+    "application_id": "LOAN-2026-000023",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 14:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000068",
+    "application_id": "LOAN-2026-000023",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 16:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000069",
+    "application_id": "LOAN-2026-000023",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-15 17:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000070",
+    "application_id": "LOAN-2026-000024",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 14:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000071",
+    "application_id": "LOAN-2026-000024",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 16:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000072",
+    "application_id": "LOAN-2026-000024",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-15 17:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000073",
+    "application_id": "LOAN-2026-000025",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 15:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000074",
+    "application_id": "LOAN-2026-000025",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 17:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000075",
+    "application_id": "LOAN-2026-000025",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 18:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_DTI_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000076",
+    "application_id": "LOAN-2026-000026",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 15:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000077",
+    "application_id": "LOAN-2026-000026",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 17:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000078",
+    "application_id": "LOAN-2026-000026",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 18:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000079",
+    "application_id": "LOAN-2026-000027",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 15:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000080",
+    "application_id": "LOAN-2026-000027",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 17:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000081",
+    "application_id": "LOAN-2026-000027",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-15 18:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000082",
+    "application_id": "LOAN-2026-000028",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 15:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000083",
+    "application_id": "LOAN-2026-000028",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 17:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000084",
+    "application_id": "LOAN-2026-000028",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 18:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_CREDIT_SCORE_BELOW_MIN)"
+  },
+  {
+    "history_id": "HIST-000085",
+    "application_id": "LOAN-2026-000029",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 15:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000086",
+    "application_id": "LOAN-2026-000029",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 17:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000087",
+    "application_id": "LOAN-2026-000029",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-15 18:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000088",
+    "application_id": "LOAN-2026-000030",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 16:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000089",
+    "application_id": "LOAN-2026-000030",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 18:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000090",
+    "application_id": "LOAN-2026-000030",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 19:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_DOC_VERIF_FAILED)"
+  },
+  {
+    "history_id": "HIST-000091",
+    "application_id": "LOAN-2026-000031",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 16:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000092",
+    "application_id": "LOAN-2026-000031",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 18:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000093",
+    "application_id": "LOAN-2026-000031",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 19:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000094",
+    "application_id": "LOAN-2026-000032",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 16:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000095",
+    "application_id": "LOAN-2026-000032",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 18:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000096",
+    "application_id": "LOAN-2026-000032",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 19:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000097",
+    "application_id": "LOAN-2026-000033",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 16:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000098",
+    "application_id": "LOAN-2026-000033",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 18:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000099",
+    "application_id": "LOAN-2026-000033",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 19:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000100",
+    "application_id": "LOAN-2026-000034",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 16:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000101",
+    "application_id": "LOAN-2026-000034",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 18:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000102",
+    "application_id": "LOAN-2026-000034",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 19:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000103",
+    "application_id": "LOAN-2026-000035",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 17:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000104",
+    "application_id": "LOAN-2026-000035",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 19:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000105",
+    "application_id": "LOAN-2026-000035",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 20:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000106",
+    "application_id": "LOAN-2026-000036",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 17:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000107",
+    "application_id": "LOAN-2026-000036",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 19:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000108",
+    "application_id": "LOAN-2026-000036",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 20:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_DOC_VERIF_FAILED)"
+  },
+  {
+    "history_id": "HIST-000109",
+    "application_id": "LOAN-2026-000037",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 17:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000110",
+    "application_id": "LOAN-2026-000037",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 19:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000111",
+    "application_id": "LOAN-2026-000037",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-15 20:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000112",
+    "application_id": "LOAN-2026-000038",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 17:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000113",
+    "application_id": "LOAN-2026-000038",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 19:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000114",
+    "application_id": "LOAN-2026-000038",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "MANUAL_REVIEW",
+    "changed_at": "2026-01-15 20:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: MANUAL_REVIEW (REV_FOIR_BORDERLINE)"
+  },
+  {
+    "history_id": "HIST-000115",
+    "application_id": "LOAN-2026-000039",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 17:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000116",
+    "application_id": "LOAN-2026-000039",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 19:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000117",
+    "application_id": "LOAN-2026-000039",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 20:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_DTI_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000118",
+    "application_id": "LOAN-2026-000040",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 18:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000119",
+    "application_id": "LOAN-2026-000040",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 20:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000120",
+    "application_id": "LOAN-2026-000040",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 21:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000121",
+    "application_id": "LOAN-2026-000041",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 18:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000122",
+    "application_id": "LOAN-2026-000041",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 20:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000123",
+    "application_id": "LOAN-2026-000041",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-15 21:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000124",
+    "application_id": "LOAN-2026-000042",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 18:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000125",
+    "application_id": "LOAN-2026-000042",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 20:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000126",
+    "application_id": "LOAN-2026-000042",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-15 21:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000127",
+    "application_id": "LOAN-2026-000043",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 18:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000128",
+    "application_id": "LOAN-2026-000043",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 20:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000129",
+    "application_id": "LOAN-2026-000043",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-15 21:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000130",
+    "application_id": "LOAN-2026-000044",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 18:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000131",
+    "application_id": "LOAN-2026-000044",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 20:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000132",
+    "application_id": "LOAN-2026-000044",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 21:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_DTI_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000133",
+    "application_id": "LOAN-2026-000045",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 19:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000134",
+    "application_id": "LOAN-2026-000045",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 21:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000135",
+    "application_id": "LOAN-2026-000045",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 22:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_DOC_VERIF_FAILED)"
+  },
+  {
+    "history_id": "HIST-000136",
+    "application_id": "LOAN-2026-000046",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 19:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000137",
+    "application_id": "LOAN-2026-000046",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 21:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000138",
+    "application_id": "LOAN-2026-000046",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "PENDING_INFORMATION",
+    "changed_at": "2026-01-15 22:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: PENDING_INFORMATION (REV_INCOME_PROOF_MISSING)"
+  },
+  {
+    "history_id": "HIST-000139",
+    "application_id": "LOAN-2026-000047",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 19:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000140",
+    "application_id": "LOAN-2026-000047",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 21:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000141",
+    "application_id": "LOAN-2026-000047",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 22:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_DTI_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000142",
+    "application_id": "LOAN-2026-000048",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 19:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000143",
+    "application_id": "LOAN-2026-000048",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 21:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000144",
+    "application_id": "LOAN-2026-000048",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 22:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000145",
+    "application_id": "LOAN-2026-000049",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 19:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000146",
+    "application_id": "LOAN-2026-000049",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 21:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000147",
+    "application_id": "LOAN-2026-000049",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-15 22:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000148",
+    "application_id": "LOAN-2026-000050",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 20:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000149",
+    "application_id": "LOAN-2026-000050",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 22:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000150",
+    "application_id": "LOAN-2026-000050",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 23:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_DOC_VERIF_FAILED)"
+  },
+  {
+    "history_id": "HIST-000151",
+    "application_id": "LOAN-2026-000051",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 20:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000152",
+    "application_id": "LOAN-2026-000051",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 22:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000153",
+    "application_id": "LOAN-2026-000051",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-15 23:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000154",
+    "application_id": "LOAN-2026-000052",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 20:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000155",
+    "application_id": "LOAN-2026-000052",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 22:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000156",
+    "application_id": "LOAN-2026-000052",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 23:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000157",
+    "application_id": "LOAN-2026-000053",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 20:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000158",
+    "application_id": "LOAN-2026-000053",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 22:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000159",
+    "application_id": "LOAN-2026-000053",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-15 23:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000160",
+    "application_id": "LOAN-2026-000054",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 20:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000161",
+    "application_id": "LOAN-2026-000054",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 22:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000162",
+    "application_id": "LOAN-2026-000054",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-15 23:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000163",
+    "application_id": "LOAN-2026-000055",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 21:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000164",
+    "application_id": "LOAN-2026-000055",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 23:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000165",
+    "application_id": "LOAN-2026-000055",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 00:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_PRODUCT_LIMITS_BREACH)"
+  },
+  {
+    "history_id": "HIST-000166",
+    "application_id": "LOAN-2026-000056",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 21:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000167",
+    "application_id": "LOAN-2026-000056",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 23:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000168",
+    "application_id": "LOAN-2026-000056",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 00:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_DTI_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000169",
+    "application_id": "LOAN-2026-000057",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 21:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000170",
+    "application_id": "LOAN-2026-000057",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 23:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000171",
+    "application_id": "LOAN-2026-000057",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 00:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000172",
+    "application_id": "LOAN-2026-000058",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 21:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000173",
+    "application_id": "LOAN-2026-000058",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 23:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000174",
+    "application_id": "LOAN-2026-000058",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-16 00:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000175",
+    "application_id": "LOAN-2026-000059",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 21:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000176",
+    "application_id": "LOAN-2026-000059",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-15 23:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000177",
+    "application_id": "LOAN-2026-000059",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 00:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000178",
+    "application_id": "LOAN-2026-000060",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 22:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000179",
+    "application_id": "LOAN-2026-000060",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 00:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000180",
+    "application_id": "LOAN-2026-000060",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-16 01:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000181",
+    "application_id": "LOAN-2026-000061",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 22:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000182",
+    "application_id": "LOAN-2026-000061",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 00:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000183",
+    "application_id": "LOAN-2026-000061",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-16 01:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000184",
+    "application_id": "LOAN-2026-000062",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 22:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000185",
+    "application_id": "LOAN-2026-000062",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 00:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000186",
+    "application_id": "LOAN-2026-000062",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 01:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_DTI_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000187",
+    "application_id": "LOAN-2026-000063",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 22:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000188",
+    "application_id": "LOAN-2026-000063",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 00:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000189",
+    "application_id": "LOAN-2026-000063",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 01:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_DTI_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000190",
+    "application_id": "LOAN-2026-000064",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 22:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000191",
+    "application_id": "LOAN-2026-000064",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 00:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000192",
+    "application_id": "LOAN-2026-000064",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "MANUAL_REVIEW",
+    "changed_at": "2026-01-16 01:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: MANUAL_REVIEW (REV_FOIR_BORDERLINE)"
+  },
+  {
+    "history_id": "HIST-000193",
+    "application_id": "LOAN-2026-000065",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 23:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000194",
+    "application_id": "LOAN-2026-000065",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 01:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000195",
+    "application_id": "LOAN-2026-000065",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 02:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000196",
+    "application_id": "LOAN-2026-000066",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 23:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000197",
+    "application_id": "LOAN-2026-000066",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 01:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000198",
+    "application_id": "LOAN-2026-000066",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 02:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000199",
+    "application_id": "LOAN-2026-000067",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 23:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000200",
+    "application_id": "LOAN-2026-000067",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 01:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000201",
+    "application_id": "LOAN-2026-000067",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 02:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000202",
+    "application_id": "LOAN-2026-000068",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 23:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000203",
+    "application_id": "LOAN-2026-000068",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 01:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000204",
+    "application_id": "LOAN-2026-000068",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 02:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000205",
+    "application_id": "LOAN-2026-000069",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-15 23:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000206",
+    "application_id": "LOAN-2026-000069",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 01:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000207",
+    "application_id": "LOAN-2026-000069",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "PENDING_INFORMATION",
+    "changed_at": "2026-01-16 02:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: PENDING_INFORMATION (REV_DOC_EXPIRED)"
+  },
+  {
+    "history_id": "HIST-000208",
+    "application_id": "LOAN-2026-000070",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 00:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000209",
+    "application_id": "LOAN-2026-000070",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 02:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000210",
+    "application_id": "LOAN-2026-000070",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 03:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_DTI_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000211",
+    "application_id": "LOAN-2026-000071",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 00:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000212",
+    "application_id": "LOAN-2026-000071",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 02:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000213",
+    "application_id": "LOAN-2026-000071",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-16 03:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000214",
+    "application_id": "LOAN-2026-000072",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 00:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000215",
+    "application_id": "LOAN-2026-000072",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 02:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000216",
+    "application_id": "LOAN-2026-000072",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "MANUAL_REVIEW",
+    "changed_at": "2026-01-16 03:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: MANUAL_REVIEW (REV_FOIR_BORDERLINE)"
+  },
+  {
+    "history_id": "HIST-000217",
+    "application_id": "LOAN-2026-000073",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 00:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000218",
+    "application_id": "LOAN-2026-000073",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 02:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000219",
+    "application_id": "LOAN-2026-000073",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 03:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000220",
+    "application_id": "LOAN-2026-000074",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 00:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000221",
+    "application_id": "LOAN-2026-000074",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 02:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000222",
+    "application_id": "LOAN-2026-000074",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 03:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_DOC_VERIF_FAILED)"
+  },
+  {
+    "history_id": "HIST-000223",
+    "application_id": "LOAN-2026-000075",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 01:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000224",
+    "application_id": "LOAN-2026-000075",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 03:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000225",
+    "application_id": "LOAN-2026-000075",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "PENDING_INFORMATION",
+    "changed_at": "2026-01-16 04:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: PENDING_INFORMATION (REV_INCOME_PROOF_MISSING)"
+  },
+  {
+    "history_id": "HIST-000226",
+    "application_id": "LOAN-2026-000076",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 01:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000227",
+    "application_id": "LOAN-2026-000076",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 03:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000228",
+    "application_id": "LOAN-2026-000076",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "PENDING_INFORMATION",
+    "changed_at": "2026-01-16 04:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: PENDING_INFORMATION (REV_INCOME_PROOF_MISSING)"
+  },
+  {
+    "history_id": "HIST-000229",
+    "application_id": "LOAN-2026-000077",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 01:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000230",
+    "application_id": "LOAN-2026-000077",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 03:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000231",
+    "application_id": "LOAN-2026-000077",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 04:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000232",
+    "application_id": "LOAN-2026-000078",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 01:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000233",
+    "application_id": "LOAN-2026-000078",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 03:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000234",
+    "application_id": "LOAN-2026-000078",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-16 04:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000235",
+    "application_id": "LOAN-2026-000079",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 01:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000236",
+    "application_id": "LOAN-2026-000079",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 03:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000237",
+    "application_id": "LOAN-2026-000079",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-16 04:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000238",
+    "application_id": "LOAN-2026-000080",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 02:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000239",
+    "application_id": "LOAN-2026-000080",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 04:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000240",
+    "application_id": "LOAN-2026-000080",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 05:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000241",
+    "application_id": "LOAN-2026-000081",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 02:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000242",
+    "application_id": "LOAN-2026-000081",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 04:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000243",
+    "application_id": "LOAN-2026-000081",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 05:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_CREDIT_SCORE_BELOW_MIN)"
+  },
+  {
+    "history_id": "HIST-000244",
+    "application_id": "LOAN-2026-000082",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 02:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000245",
+    "application_id": "LOAN-2026-000082",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 04:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000246",
+    "application_id": "LOAN-2026-000082",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "MANUAL_REVIEW",
+    "changed_at": "2026-01-16 05:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: MANUAL_REVIEW (REV_FOIR_BORDERLINE)"
+  },
+  {
+    "history_id": "HIST-000247",
+    "application_id": "LOAN-2026-000083",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 02:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000248",
+    "application_id": "LOAN-2026-000083",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 04:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000249",
+    "application_id": "LOAN-2026-000083",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 05:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_DTI_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000250",
+    "application_id": "LOAN-2026-000084",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 02:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000251",
+    "application_id": "LOAN-2026-000084",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 04:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000252",
+    "application_id": "LOAN-2026-000084",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-16 05:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000253",
+    "application_id": "LOAN-2026-000085",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 03:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000254",
+    "application_id": "LOAN-2026-000085",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 05:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000255",
+    "application_id": "LOAN-2026-000085",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "MANUAL_REVIEW",
+    "changed_at": "2026-01-16 06:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: MANUAL_REVIEW (REV_FOIR_BORDERLINE)"
+  },
+  {
+    "history_id": "HIST-000256",
+    "application_id": "LOAN-2026-000086",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 03:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000257",
+    "application_id": "LOAN-2026-000086",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 05:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000258",
+    "application_id": "LOAN-2026-000086",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 06:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_CREDIT_SCORE_BELOW_MIN)"
+  },
+  {
+    "history_id": "HIST-000259",
+    "application_id": "LOAN-2026-000087",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 03:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000260",
+    "application_id": "LOAN-2026-000087",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 05:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000261",
+    "application_id": "LOAN-2026-000087",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-16 06:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000262",
+    "application_id": "LOAN-2026-000088",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 03:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000263",
+    "application_id": "LOAN-2026-000088",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 05:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000264",
+    "application_id": "LOAN-2026-000088",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-16 06:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000265",
+    "application_id": "LOAN-2026-000089",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 03:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000266",
+    "application_id": "LOAN-2026-000089",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 05:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000267",
+    "application_id": "LOAN-2026-000089",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "PENDING_INFORMATION",
+    "changed_at": "2026-01-16 06:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: PENDING_INFORMATION (REV_INCOME_PROOF_MISSING)"
+  },
+  {
+    "history_id": "HIST-000268",
+    "application_id": "LOAN-2026-000090",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 04:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000269",
+    "application_id": "LOAN-2026-000090",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 06:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000270",
+    "application_id": "LOAN-2026-000090",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "MANUAL_REVIEW",
+    "changed_at": "2026-01-16 07:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: MANUAL_REVIEW (REV_FOIR_BORDERLINE)"
+  },
+  {
+    "history_id": "HIST-000271",
+    "application_id": "LOAN-2026-000091",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 04:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000272",
+    "application_id": "LOAN-2026-000091",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 06:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000273",
+    "application_id": "LOAN-2026-000091",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-16 07:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000274",
+    "application_id": "LOAN-2026-000092",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 04:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000275",
+    "application_id": "LOAN-2026-000092",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 06:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000276",
+    "application_id": "LOAN-2026-000092",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 07:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_DOC_VERIF_FAILED)"
+  },
+  {
+    "history_id": "HIST-000277",
+    "application_id": "LOAN-2026-000093",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 04:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000278",
+    "application_id": "LOAN-2026-000093",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 06:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000279",
+    "application_id": "LOAN-2026-000093",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-16 07:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000280",
+    "application_id": "LOAN-2026-000094",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 04:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000281",
+    "application_id": "LOAN-2026-000094",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 06:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000282",
+    "application_id": "LOAN-2026-000094",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 07:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000283",
+    "application_id": "LOAN-2026-000095",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 05:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000284",
+    "application_id": "LOAN-2026-000095",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 07:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000285",
+    "application_id": "LOAN-2026-000095",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "PENDING_INFORMATION",
+    "changed_at": "2026-01-16 08:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: PENDING_INFORMATION (REV_DOC_EXPIRED)"
+  },
+  {
+    "history_id": "HIST-000286",
+    "application_id": "LOAN-2026-000096",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 05:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000287",
+    "application_id": "LOAN-2026-000096",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 07:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000288",
+    "application_id": "LOAN-2026-000096",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 08:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000289",
+    "application_id": "LOAN-2026-000097",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 05:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000290",
+    "application_id": "LOAN-2026-000097",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 07:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000291",
+    "application_id": "LOAN-2026-000097",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "MANUAL_REVIEW",
+    "changed_at": "2026-01-16 08:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: MANUAL_REVIEW (REV_FOIR_BORDERLINE)"
+  },
+  {
+    "history_id": "HIST-000292",
+    "application_id": "LOAN-2026-000098",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 05:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000293",
+    "application_id": "LOAN-2026-000098",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 07:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000294",
+    "application_id": "LOAN-2026-000098",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-16 08:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000295",
+    "application_id": "LOAN-2026-000099",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 05:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000296",
+    "application_id": "LOAN-2026-000099",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 07:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000297",
+    "application_id": "LOAN-2026-000099",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 08:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000298",
+    "application_id": "LOAN-2026-000100",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 06:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000299",
+    "application_id": "LOAN-2026-000100",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 08:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000300",
+    "application_id": "LOAN-2026-000100",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 09:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000301",
+    "application_id": "LOAN-2026-000101",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 06:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000302",
+    "application_id": "LOAN-2026-000101",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 08:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000303",
+    "application_id": "LOAN-2026-000101",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 09:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000304",
+    "application_id": "LOAN-2026-000102",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 06:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000305",
+    "application_id": "LOAN-2026-000102",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 08:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000306",
+    "application_id": "LOAN-2026-000102",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-16 09:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000307",
+    "application_id": "LOAN-2026-000103",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 06:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000308",
+    "application_id": "LOAN-2026-000103",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 08:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000309",
+    "application_id": "LOAN-2026-000103",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "MANUAL_REVIEW",
+    "changed_at": "2026-01-16 09:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: MANUAL_REVIEW (REV_FOIR_BORDERLINE)"
+  },
+  {
+    "history_id": "HIST-000310",
+    "application_id": "LOAN-2026-000104",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 06:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000311",
+    "application_id": "LOAN-2026-000104",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 08:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000312",
+    "application_id": "LOAN-2026-000104",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-16 09:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000313",
+    "application_id": "LOAN-2026-000105",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 07:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000314",
+    "application_id": "LOAN-2026-000105",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 09:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000315",
+    "application_id": "LOAN-2026-000105",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 10:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000316",
+    "application_id": "LOAN-2026-000106",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 07:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000317",
+    "application_id": "LOAN-2026-000106",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 09:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000318",
+    "application_id": "LOAN-2026-000106",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 10:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000319",
+    "application_id": "LOAN-2026-000107",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 07:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000320",
+    "application_id": "LOAN-2026-000107",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 09:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000321",
+    "application_id": "LOAN-2026-000107",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "PENDING_INFORMATION",
+    "changed_at": "2026-01-16 10:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: PENDING_INFORMATION (REV_INCOME_PROOF_MISSING)"
+  },
+  {
+    "history_id": "HIST-000322",
+    "application_id": "LOAN-2026-000108",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 07:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000323",
+    "application_id": "LOAN-2026-000108",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 09:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000324",
+    "application_id": "LOAN-2026-000108",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 10:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000325",
+    "application_id": "LOAN-2026-000109",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 07:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000326",
+    "application_id": "LOAN-2026-000109",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 09:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000327",
+    "application_id": "LOAN-2026-000109",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 10:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_CREDIT_SCORE_BELOW_MIN)"
+  },
+  {
+    "history_id": "HIST-000328",
+    "application_id": "LOAN-2026-000110",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 08:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000329",
+    "application_id": "LOAN-2026-000110",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 10:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000330",
+    "application_id": "LOAN-2026-000110",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-16 11:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000331",
+    "application_id": "LOAN-2026-000111",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 08:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000332",
+    "application_id": "LOAN-2026-000111",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 10:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000333",
+    "application_id": "LOAN-2026-000111",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 11:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_DTI_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000334",
+    "application_id": "LOAN-2026-000112",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 08:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000335",
+    "application_id": "LOAN-2026-000112",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 10:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000336",
+    "application_id": "LOAN-2026-000112",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "PENDING_INFORMATION",
+    "changed_at": "2026-01-16 11:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: PENDING_INFORMATION (REV_INCOME_PROOF_MISSING)"
+  },
+  {
+    "history_id": "HIST-000337",
+    "application_id": "LOAN-2026-000113",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 08:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000338",
+    "application_id": "LOAN-2026-000113",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 10:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000339",
+    "application_id": "LOAN-2026-000113",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-16 11:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000340",
+    "application_id": "LOAN-2026-000114",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 08:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000341",
+    "application_id": "LOAN-2026-000114",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 10:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000342",
+    "application_id": "LOAN-2026-000114",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "PENDING_INFORMATION",
+    "changed_at": "2026-01-16 11:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: PENDING_INFORMATION (REV_INCOME_PROOF_MISSING)"
+  },
+  {
+    "history_id": "HIST-000343",
+    "application_id": "LOAN-2026-000115",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 09:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000344",
+    "application_id": "LOAN-2026-000115",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 11:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000345",
+    "application_id": "LOAN-2026-000115",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "changed_at": "2026-01-16 12:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: APPROVED (APP_CLEAN_APPROVAL)"
+  },
+  {
+    "history_id": "HIST-000346",
+    "application_id": "LOAN-2026-000116",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 09:12:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000347",
+    "application_id": "LOAN-2026-000116",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 11:12:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000348",
+    "application_id": "LOAN-2026-000116",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 12:12:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000349",
+    "application_id": "LOAN-2026-000117",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 09:24:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000350",
+    "application_id": "LOAN-2026-000117",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 11:24:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000351",
+    "application_id": "LOAN-2026-000117",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "MANUAL_REVIEW",
+    "changed_at": "2026-01-16 12:24:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: MANUAL_REVIEW (REV_FOIR_BORDERLINE)"
+  },
+  {
+    "history_id": "HIST-000352",
+    "application_id": "LOAN-2026-000118",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 09:36:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000353",
+    "application_id": "LOAN-2026-000118",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 11:36:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000354",
+    "application_id": "LOAN-2026-000118",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 12:36:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_CREDIT_SCORE_BELOW_MIN)"
+  },
+  {
+    "history_id": "HIST-000355",
+    "application_id": "LOAN-2026-000119",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 09:48:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000356",
+    "application_id": "LOAN-2026-000119",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 11:48:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000357",
+    "application_id": "LOAN-2026-000119",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 12:48:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  },
+  {
+    "history_id": "HIST-000358",
+    "application_id": "LOAN-2026-000120",
+    "previous_status": null,
+    "new_status": "SUBMITTED",
+    "changed_at": "2026-01-16 10:00:00",
+    "changed_by": "SYSTEM_PORTAL",
+    "notes": "Application successfully submitted via online channel."
+  },
+  {
+    "history_id": "HIST-000359",
+    "application_id": "LOAN-2026-000120",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "changed_at": "2026-01-16 12:00:00",
+    "changed_by": "AFFORDABILITY_SERVICE",
+    "notes": "Affordability and document verification checks initiated."
+  },
+  {
+    "history_id": "HIST-000360",
+    "application_id": "LOAN-2026-000120",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "REJECT",
+    "changed_at": "2026-01-16 13:00:00",
+    "changed_by": "SYSTEM_RULES_ENGINE",
+    "notes": "Decision reached: REJECT (REJ_FOIR_EXCEEDED)"
+  }
+]

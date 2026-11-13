@@ -1,0 +1,1847 @@
+[
+  {
+    "decision_id": "DEC-LOAN-2026-000001-01",
+    "application_id": "LOAN-2026-000001",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 13:12:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 90.46% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 736,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000002-01",
+    "application_id": "LOAN-2026-000002",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 13:24:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 99.57% severely breaches repayment capacity limit of 65.00%.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000003-01",
+    "application_id": "LOAN-2026-000003",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 13:36:00",
+    "decision_reason_code": "REJ_CREDIT_SCORE_BELOW_MIN",
+    "decision_explanation": "Credit bureau score 670 is below product cutoff of 700.",
+    "risk_score": 670,
+    "rules_triggered": [
+      "RULE_02",
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000004-01",
+    "application_id": "LOAN-2026-000004",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-15 13:48:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 757,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000005-01",
+    "application_id": "LOAN-2026-000005",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-15 14:00:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 746,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000006-01",
+    "application_id": "LOAN-2026-000006",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 14:12:00",
+    "decision_reason_code": "REJ_CREDIT_SCORE_BELOW_MIN",
+    "decision_explanation": "Credit bureau score 681 is below product cutoff of 700.",
+    "risk_score": 681,
+    "rules_triggered": [
+      "RULE_02"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000007-01",
+    "application_id": "LOAN-2026-000007",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 14:24:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 100.00% severely breaches repayment capacity limit of 55.00%.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_04",
+      "RULE_06"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000008-01",
+    "application_id": "LOAN-2026-000008",
+    "decision_sequence": 1,
+    "decision_status": "PENDING_INFORMATION",
+    "decision_timestamp": "2026-01-15 14:36:00",
+    "decision_reason_code": "REV_DOC_EXPIRED",
+    "decision_explanation": "One or more submitted documents have expired.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000009-01",
+    "application_id": "LOAN-2026-000009",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-15 14:48:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000010-01",
+    "application_id": "LOAN-2026-000010",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 15:00:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 149.52% severely breaches repayment capacity limit of 55.00%.",
+    "risk_score": 789,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000011-01",
+    "application_id": "LOAN-2026-000011",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 15:12:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 58.15% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000012-01",
+    "application_id": "LOAN-2026-000012",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 15:24:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 70.99% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 802,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000013-01",
+    "application_id": "LOAN-2026-000013",
+    "decision_sequence": 1,
+    "decision_status": "PENDING_INFORMATION",
+    "decision_timestamp": "2026-01-15 15:36:00",
+    "decision_reason_code": "REV_INCOME_PROOF_MISSING",
+    "decision_explanation": "Mandatory income proof or bank statement is unverified or missing.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_05",
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000014-01",
+    "application_id": "LOAN-2026-000014",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 15:48:00",
+    "decision_reason_code": "REJ_PRODUCT_LIMITS_BREACH",
+    "decision_explanation": "Requested principal \u20b95,500,000.00 is outside product range [\u20b9200,000.00, \u20b95,000,000.00].",
+    "risk_score": 776,
+    "rules_triggered": [
+      "RULE_01",
+      "RULE_03",
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000015-01",
+    "application_id": "LOAN-2026-000015",
+    "decision_sequence": 1,
+    "decision_status": "PENDING_INFORMATION",
+    "decision_timestamp": "2026-01-15 16:00:00",
+    "decision_reason_code": "REV_DOC_EXPIRED",
+    "decision_explanation": "One or more submitted documents have expired.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000016-01",
+    "application_id": "LOAN-2026-000016",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 16:12:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 92.60% severely breaches repayment capacity limit of 65.00%.",
+    "risk_score": 730,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000017-01",
+    "application_id": "LOAN-2026-000017",
+    "decision_sequence": 1,
+    "decision_status": "PENDING_INFORMATION",
+    "decision_timestamp": "2026-01-15 16:24:00",
+    "decision_reason_code": "REV_DOC_EXPIRED",
+    "decision_explanation": "One or more submitted documents have expired.",
+    "risk_score": 802,
+    "rules_triggered": [
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000018-01",
+    "application_id": "LOAN-2026-000018",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 16:36:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 100.66% severely breaches repayment capacity limit of 65.00%.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000019-01",
+    "application_id": "LOAN-2026-000019",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 16:48:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 107.17% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000020-01",
+    "application_id": "LOAN-2026-000020",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-15 17:00:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000021-01",
+    "application_id": "LOAN-2026-000021",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 17:12:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 111.33% severely breaches repayment capacity limit of 55.00%.",
+    "risk_score": 807,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000022-01",
+    "application_id": "LOAN-2026-000022",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-15 17:24:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 781,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000023-01",
+    "application_id": "LOAN-2026-000023",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-15 17:36:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 760,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000024-01",
+    "application_id": "LOAN-2026-000024",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-15 17:48:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 769,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000025-01",
+    "application_id": "LOAN-2026-000025",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 18:00:00",
+    "decision_reason_code": "REJ_DTI_EXCEEDED",
+    "decision_explanation": "DTI 87.96% severely exceeds allowable threshold of 50.00%.",
+    "risk_score": 711,
+    "rules_triggered": [
+      "RULE_03",
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000026-01",
+    "application_id": "LOAN-2026-000026",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 18:12:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 78.86% severely breaches repayment capacity limit of 60.00%.",
+    "risk_score": 797,
+    "rules_triggered": [
+      "RULE_04",
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000027-01",
+    "application_id": "LOAN-2026-000027",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-15 18:24:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 792,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000028-01",
+    "application_id": "LOAN-2026-000028",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 18:36:00",
+    "decision_reason_code": "REJ_CREDIT_SCORE_BELOW_MIN",
+    "decision_explanation": "Credit bureau score 593 is below product cutoff of 660.",
+    "risk_score": 593,
+    "rules_triggered": [
+      "RULE_02",
+      "RULE_03",
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000029-01",
+    "application_id": "LOAN-2026-000029",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-15 18:48:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 784,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000030-01",
+    "application_id": "LOAN-2026-000030",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 19:00:00",
+    "decision_reason_code": "REJ_DOC_VERIF_FAILED",
+    "decision_explanation": "One or more mandatory documents failed verification.",
+    "risk_score": 796,
+    "rules_triggered": [
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000031-01",
+    "application_id": "LOAN-2026-000031",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 19:12:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 111.26% severely breaches repayment capacity limit of 65.00%.",
+    "risk_score": 797,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000032-01",
+    "application_id": "LOAN-2026-000032",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 19:24:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 80.88% severely breaches repayment capacity limit of 65.00%.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000033-01",
+    "application_id": "LOAN-2026-000033",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 19:36:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 134.93% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_04",
+      "RULE_05",
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000034-01",
+    "application_id": "LOAN-2026-000034",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 19:48:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 94.11% severely breaches repayment capacity limit of 65.00%.",
+    "risk_score": 769,
+    "rules_triggered": [
+      "RULE_04",
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000035-01",
+    "application_id": "LOAN-2026-000035",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 20:00:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 173.83% severely breaches repayment capacity limit of 55.00%.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_04",
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000036-01",
+    "application_id": "LOAN-2026-000036",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 20:12:00",
+    "decision_reason_code": "REJ_DOC_VERIF_FAILED",
+    "decision_explanation": "One or more mandatory documents failed verification.",
+    "risk_score": 790,
+    "rules_triggered": [
+      "RULE_04",
+      "RULE_05",
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000037-01",
+    "application_id": "LOAN-2026-000037",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-15 20:24:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 787,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000038-01",
+    "application_id": "LOAN-2026-000038",
+    "decision_sequence": 1,
+    "decision_status": "MANUAL_REVIEW",
+    "decision_timestamp": "2026-01-15 20:36:00",
+    "decision_reason_code": "REV_FOIR_BORDERLINE",
+    "decision_explanation": "FOIR 66.87% exceeds guideline of 60.00%; underwriter review required.",
+    "risk_score": 786,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000039-01",
+    "application_id": "LOAN-2026-000039",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 20:48:00",
+    "decision_reason_code": "REJ_DTI_EXCEEDED",
+    "decision_explanation": "DTI 94.47% severely exceeds allowable threshold of 40.00%.",
+    "risk_score": 796,
+    "rules_triggered": [
+      "RULE_03",
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000040-01",
+    "application_id": "LOAN-2026-000040",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 21:00:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 110.47% severely breaches repayment capacity limit of 60.00%.",
+    "risk_score": 686,
+    "rules_triggered": [
+      "RULE_04",
+      "RULE_08"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000041-01",
+    "application_id": "LOAN-2026-000041",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-15 21:12:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000042-01",
+    "application_id": "LOAN-2026-000042",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-15 21:24:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000043-01",
+    "application_id": "LOAN-2026-000043",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-15 21:36:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000044-01",
+    "application_id": "LOAN-2026-000044",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 21:48:00",
+    "decision_reason_code": "REJ_DTI_EXCEEDED",
+    "decision_explanation": "DTI 201.16% severely exceeds allowable threshold of 40.00%.",
+    "risk_score": 782,
+    "rules_triggered": [
+      "RULE_03",
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000045-01",
+    "application_id": "LOAN-2026-000045",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 22:00:00",
+    "decision_reason_code": "REJ_DOC_VERIF_FAILED",
+    "decision_explanation": "One or more mandatory documents failed verification.",
+    "risk_score": 784,
+    "rules_triggered": [
+      "RULE_05",
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000046-01",
+    "application_id": "LOAN-2026-000046",
+    "decision_sequence": 1,
+    "decision_status": "PENDING_INFORMATION",
+    "decision_timestamp": "2026-01-15 22:12:00",
+    "decision_reason_code": "REV_INCOME_PROOF_MISSING",
+    "decision_explanation": "Mandatory income proof or bank statement is unverified or missing.",
+    "risk_score": 790,
+    "rules_triggered": [
+      "RULE_05",
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000047-01",
+    "application_id": "LOAN-2026-000047",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 22:24:00",
+    "decision_reason_code": "REJ_DTI_EXCEEDED",
+    "decision_explanation": "DTI 68.61% severely exceeds allowable threshold of 50.00%.",
+    "risk_score": 777,
+    "rules_triggered": [
+      "RULE_03",
+      "RULE_04",
+      "RULE_05"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000048-01",
+    "application_id": "LOAN-2026-000048",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 22:36:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 112.04% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 799,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000049-01",
+    "application_id": "LOAN-2026-000049",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-15 22:48:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000050-01",
+    "application_id": "LOAN-2026-000050",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 23:00:00",
+    "decision_reason_code": "REJ_DOC_VERIF_FAILED",
+    "decision_explanation": "One or more mandatory documents failed verification.",
+    "risk_score": 773,
+    "rules_triggered": [
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000051-01",
+    "application_id": "LOAN-2026-000051",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-15 23:12:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 767,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000052-01",
+    "application_id": "LOAN-2026-000052",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 23:24:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 216.69% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 801,
+    "rules_triggered": [
+      "RULE_04",
+      "RULE_05",
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000053-01",
+    "application_id": "LOAN-2026-000053",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-15 23:36:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000054-01",
+    "application_id": "LOAN-2026-000054",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-15 23:48:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 100.32% severely breaches repayment capacity limit of 60.00%.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000055-01",
+    "application_id": "LOAN-2026-000055",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 00:00:00",
+    "decision_reason_code": "REJ_PRODUCT_LIMITS_BREACH",
+    "decision_explanation": "Requested principal \u20b95,580,000.00 is outside product range [\u20b9200,000.00, \u20b95,000,000.00].",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_01",
+      "RULE_04",
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000056-01",
+    "application_id": "LOAN-2026-000056",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 00:12:00",
+    "decision_reason_code": "REJ_DTI_EXCEEDED",
+    "decision_explanation": "DTI 68.73% severely exceeds allowable threshold of 45.00%.",
+    "risk_score": 809,
+    "rules_triggered": [
+      "RULE_03",
+      "RULE_04",
+      "RULE_05",
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000057-01",
+    "application_id": "LOAN-2026-000057",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 00:24:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 326.44% severely breaches repayment capacity limit of 55.00%.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000058-01",
+    "application_id": "LOAN-2026-000058",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-16 00:36:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000059-01",
+    "application_id": "LOAN-2026-000059",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 00:48:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 108.06% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 760,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000060-01",
+    "application_id": "LOAN-2026-000060",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-16 01:00:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 766,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000061-01",
+    "application_id": "LOAN-2026-000061",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-16 01:12:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000062-01",
+    "application_id": "LOAN-2026-000062",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 01:24:00",
+    "decision_reason_code": "REJ_DTI_EXCEEDED",
+    "decision_explanation": "DTI 58.83% severely exceeds allowable threshold of 45.00%.",
+    "risk_score": 768,
+    "rules_triggered": [
+      "RULE_03",
+      "RULE_04",
+      "RULE_05"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000063-01",
+    "application_id": "LOAN-2026-000063",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 01:36:00",
+    "decision_reason_code": "REJ_DTI_EXCEEDED",
+    "decision_explanation": "DTI 62.11% severely exceeds allowable threshold of 40.00%.",
+    "risk_score": 790,
+    "rules_triggered": [
+      "RULE_03",
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000064-01",
+    "application_id": "LOAN-2026-000064",
+    "decision_sequence": 1,
+    "decision_status": "MANUAL_REVIEW",
+    "decision_timestamp": "2026-01-16 01:48:00",
+    "decision_reason_code": "REV_FOIR_BORDERLINE",
+    "decision_explanation": "FOIR 53.28% exceeds guideline of 50.00%; underwriter review required.",
+    "risk_score": 771,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000065-01",
+    "application_id": "LOAN-2026-000065",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 02:00:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 224.49% severely breaches repayment capacity limit of 65.00%.",
+    "risk_score": 785,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000066-01",
+    "application_id": "LOAN-2026-000066",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 02:12:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 66.57% severely breaches repayment capacity limit of 55.00%.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000067-01",
+    "application_id": "LOAN-2026-000067",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 02:24:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 372.89% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 697,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000068-01",
+    "application_id": "LOAN-2026-000068",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 02:36:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 121.17% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 759,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000069-01",
+    "application_id": "LOAN-2026-000069",
+    "decision_sequence": 1,
+    "decision_status": "PENDING_INFORMATION",
+    "decision_timestamp": "2026-01-16 02:48:00",
+    "decision_reason_code": "REV_DOC_EXPIRED",
+    "decision_explanation": "One or more submitted documents have expired.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000070-01",
+    "application_id": "LOAN-2026-000070",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 03:00:00",
+    "decision_reason_code": "REJ_DTI_EXCEEDED",
+    "decision_explanation": "DTI 84.28% severely exceeds allowable threshold of 50.00%.",
+    "risk_score": 771,
+    "rules_triggered": [
+      "RULE_03",
+      "RULE_04",
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000071-01",
+    "application_id": "LOAN-2026-000071",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-16 03:12:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 790,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000072-01",
+    "application_id": "LOAN-2026-000072",
+    "decision_sequence": 1,
+    "decision_status": "MANUAL_REVIEW",
+    "decision_timestamp": "2026-01-16 03:24:00",
+    "decision_reason_code": "REV_FOIR_BORDERLINE",
+    "decision_explanation": "FOIR 73.34% exceeds guideline of 65.00%; underwriter review required.",
+    "risk_score": 808,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000073-01",
+    "application_id": "LOAN-2026-000073",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 03:36:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 283.22% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_04",
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000074-01",
+    "application_id": "LOAN-2026-000074",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 03:48:00",
+    "decision_reason_code": "REJ_DOC_VERIF_FAILED",
+    "decision_explanation": "One or more mandatory documents failed verification.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_05",
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000075-01",
+    "application_id": "LOAN-2026-000075",
+    "decision_sequence": 1,
+    "decision_status": "PENDING_INFORMATION",
+    "decision_timestamp": "2026-01-16 04:00:00",
+    "decision_reason_code": "REV_INCOME_PROOF_MISSING",
+    "decision_explanation": "Mandatory income proof or bank statement is unverified or missing.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_05"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000076-01",
+    "application_id": "LOAN-2026-000076",
+    "decision_sequence": 1,
+    "decision_status": "PENDING_INFORMATION",
+    "decision_timestamp": "2026-01-16 04:12:00",
+    "decision_reason_code": "REV_INCOME_PROOF_MISSING",
+    "decision_explanation": "Mandatory income proof or bank statement is unverified or missing.",
+    "risk_score": 790,
+    "rules_triggered": [
+      "RULE_05"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000077-01",
+    "application_id": "LOAN-2026-000077",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 04:24:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 171.72% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000078-01",
+    "application_id": "LOAN-2026-000078",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-16 04:36:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 791,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000079-01",
+    "application_id": "LOAN-2026-000079",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-16 04:48:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000080-01",
+    "application_id": "LOAN-2026-000080",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 05:00:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 165.24% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 794,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000081-01",
+    "application_id": "LOAN-2026-000081",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 05:12:00",
+    "decision_reason_code": "REJ_CREDIT_SCORE_BELOW_MIN",
+    "decision_explanation": "Credit bureau score 300 is below product cutoff of 650.",
+    "risk_score": 300,
+    "rules_triggered": [
+      "RULE_02",
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000082-01",
+    "application_id": "LOAN-2026-000082",
+    "decision_sequence": 1,
+    "decision_status": "MANUAL_REVIEW",
+    "decision_timestamp": "2026-01-16 05:24:00",
+    "decision_reason_code": "REV_FOIR_BORDERLINE",
+    "decision_explanation": "FOIR 53.08% exceeds guideline of 50.00%; underwriter review required.",
+    "risk_score": 779,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000083-01",
+    "application_id": "LOAN-2026-000083",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 05:36:00",
+    "decision_reason_code": "REJ_DTI_EXCEEDED",
+    "decision_explanation": "DTI 51.90% severely exceeds allowable threshold of 40.00%.",
+    "risk_score": 775,
+    "rules_triggered": [
+      "RULE_03",
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000084-01",
+    "application_id": "LOAN-2026-000084",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-16 05:48:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000085-01",
+    "application_id": "LOAN-2026-000085",
+    "decision_sequence": 1,
+    "decision_status": "MANUAL_REVIEW",
+    "decision_timestamp": "2026-01-16 06:00:00",
+    "decision_reason_code": "REV_FOIR_BORDERLINE",
+    "decision_explanation": "FOIR 66.67% exceeds guideline of 60.00%; underwriter review required.",
+    "risk_score": 785,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000086-01",
+    "application_id": "LOAN-2026-000086",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 06:12:00",
+    "decision_reason_code": "REJ_CREDIT_SCORE_BELOW_MIN",
+    "decision_explanation": "Credit bureau score 574 is below product cutoff of 660.",
+    "risk_score": 574,
+    "rules_triggered": [
+      "RULE_02"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000087-01",
+    "application_id": "LOAN-2026-000087",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-16 06:24:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000088-01",
+    "application_id": "LOAN-2026-000088",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-16 06:36:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 700,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000089-01",
+    "application_id": "LOAN-2026-000089",
+    "decision_sequence": 1,
+    "decision_status": "PENDING_INFORMATION",
+    "decision_timestamp": "2026-01-16 06:48:00",
+    "decision_reason_code": "REV_INCOME_PROOF_MISSING",
+    "decision_explanation": "Mandatory income proof or bank statement is unverified or missing.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_05",
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000090-01",
+    "application_id": "LOAN-2026-000090",
+    "decision_sequence": 1,
+    "decision_status": "MANUAL_REVIEW",
+    "decision_timestamp": "2026-01-16 07:00:00",
+    "decision_reason_code": "REV_FOIR_BORDERLINE",
+    "decision_explanation": "FOIR 63.21% exceeds guideline of 60.00%; underwriter review required.",
+    "risk_score": 725,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000091-01",
+    "application_id": "LOAN-2026-000091",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-16 07:12:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 783,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000092-01",
+    "application_id": "LOAN-2026-000092",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 07:24:00",
+    "decision_reason_code": "REJ_DOC_VERIF_FAILED",
+    "decision_explanation": "One or more mandatory documents failed verification.",
+    "risk_score": 791,
+    "rules_triggered": [
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000093-01",
+    "application_id": "LOAN-2026-000093",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-16 07:36:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000094-01",
+    "application_id": "LOAN-2026-000094",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 07:48:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 131.88% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 760,
+    "rules_triggered": [
+      "RULE_03",
+      "RULE_04",
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000095-01",
+    "application_id": "LOAN-2026-000095",
+    "decision_sequence": 1,
+    "decision_status": "PENDING_INFORMATION",
+    "decision_timestamp": "2026-01-16 08:00:00",
+    "decision_reason_code": "REV_DOC_EXPIRED",
+    "decision_explanation": "One or more submitted documents have expired.",
+    "risk_score": 697,
+    "rules_triggered": [
+      "RULE_08",
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000096-01",
+    "application_id": "LOAN-2026-000096",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 08:12:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 84.44% severely breaches repayment capacity limit of 55.00%.",
+    "risk_score": 786,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000097-01",
+    "application_id": "LOAN-2026-000097",
+    "decision_sequence": 1,
+    "decision_status": "MANUAL_REVIEW",
+    "decision_timestamp": "2026-01-16 08:24:00",
+    "decision_reason_code": "REV_FOIR_BORDERLINE",
+    "decision_explanation": "FOIR 52.39% exceeds guideline of 50.00%; underwriter review required.",
+    "risk_score": 760,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000098-01",
+    "application_id": "LOAN-2026-000098",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-16 08:36:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000099-01",
+    "application_id": "LOAN-2026-000099",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 08:48:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 100.16% severely breaches repayment capacity limit of 60.00%.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000100-01",
+    "application_id": "LOAN-2026-000100",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 09:00:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 109.02% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 792,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000101-01",
+    "application_id": "LOAN-2026-000101",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 09:12:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 79.22% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 762,
+    "rules_triggered": [
+      "RULE_04",
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000102-01",
+    "application_id": "LOAN-2026-000102",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-16 09:24:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000103-01",
+    "application_id": "LOAN-2026-000103",
+    "decision_sequence": 1,
+    "decision_status": "MANUAL_REVIEW",
+    "decision_timestamp": "2026-01-16 09:36:00",
+    "decision_reason_code": "REV_FOIR_BORDERLINE",
+    "decision_explanation": "FOIR 59.95% exceeds guideline of 55.00%; underwriter review required.",
+    "risk_score": 720,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000104-01",
+    "application_id": "LOAN-2026-000104",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-16 09:48:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 778,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000105-01",
+    "application_id": "LOAN-2026-000105",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 10:00:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 182.03% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 733,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000106-01",
+    "application_id": "LOAN-2026-000106",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 10:12:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 267.88% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 795,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000107-01",
+    "application_id": "LOAN-2026-000107",
+    "decision_sequence": 1,
+    "decision_status": "PENDING_INFORMATION",
+    "decision_timestamp": "2026-01-16 10:24:00",
+    "decision_reason_code": "REV_INCOME_PROOF_MISSING",
+    "decision_explanation": "Mandatory income proof or bank statement is unverified or missing.",
+    "risk_score": 770,
+    "rules_triggered": [
+      "RULE_05"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000108-01",
+    "application_id": "LOAN-2026-000108",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 10:36:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 162.53% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 812,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000109-01",
+    "application_id": "LOAN-2026-000109",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 10:48:00",
+    "decision_reason_code": "REJ_CREDIT_SCORE_BELOW_MIN",
+    "decision_explanation": "Credit bureau score 619 is below product cutoff of 650.",
+    "risk_score": 619,
+    "rules_triggered": [
+      "RULE_02"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000110-01",
+    "application_id": "LOAN-2026-000110",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-16 11:00:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000111-01",
+    "application_id": "LOAN-2026-000111",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 11:12:00",
+    "decision_reason_code": "REJ_DTI_EXCEEDED",
+    "decision_explanation": "DTI 71.21% severely exceeds allowable threshold of 45.00%.",
+    "risk_score": 790,
+    "rules_triggered": [
+      "RULE_03",
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000112-01",
+    "application_id": "LOAN-2026-000112",
+    "decision_sequence": 1,
+    "decision_status": "PENDING_INFORMATION",
+    "decision_timestamp": "2026-01-16 11:24:00",
+    "decision_reason_code": "REV_INCOME_PROOF_MISSING",
+    "decision_explanation": "Mandatory income proof or bank statement is unverified or missing.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_05"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000113-01",
+    "application_id": "LOAN-2026-000113",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-16 11:36:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000114-01",
+    "application_id": "LOAN-2026-000114",
+    "decision_sequence": 1,
+    "decision_status": "PENDING_INFORMATION",
+    "decision_timestamp": "2026-01-16 11:48:00",
+    "decision_reason_code": "REV_INCOME_PROOF_MISSING",
+    "decision_explanation": "Mandatory income proof or bank statement is unverified or missing.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_05"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000115-01",
+    "application_id": "LOAN-2026-000115",
+    "decision_sequence": 1,
+    "decision_status": "APPROVED",
+    "decision_timestamp": "2026-01-16 12:00:00",
+    "decision_reason_code": "APP_CLEAN_APPROVAL",
+    "decision_explanation": "All eligibility, credit score, document, and affordability checks passed cleanly.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_10"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000116-01",
+    "application_id": "LOAN-2026-000116",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 12:12:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 119.01% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 764,
+    "rules_triggered": [
+      "RULE_04",
+      "RULE_09"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000117-01",
+    "application_id": "LOAN-2026-000117",
+    "decision_sequence": 1,
+    "decision_status": "MANUAL_REVIEW",
+    "decision_timestamp": "2026-01-16 12:24:00",
+    "decision_reason_code": "REV_FOIR_BORDERLINE",
+    "decision_explanation": "FOIR 70.83% exceeds guideline of 65.00%; underwriter review required.",
+    "risk_score": 738,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000118-01",
+    "application_id": "LOAN-2026-000118",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 12:36:00",
+    "decision_reason_code": "REJ_CREDIT_SCORE_BELOW_MIN",
+    "decision_explanation": "Credit bureau score 608 is below product cutoff of 650.",
+    "risk_score": 608,
+    "rules_triggered": [
+      "RULE_02"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000119-01",
+    "application_id": "LOAN-2026-000119",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 12:48:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 82.31% severely breaches repayment capacity limit of 50.00%.",
+    "risk_score": 758,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  },
+  {
+    "decision_id": "DEC-LOAN-2026-000120-01",
+    "application_id": "LOAN-2026-000120",
+    "decision_sequence": 1,
+    "decision_status": "REJECT",
+    "decision_timestamp": "2026-01-16 13:00:00",
+    "decision_reason_code": "REJ_FOIR_EXCEEDED",
+    "decision_explanation": "FOIR 77.47% severely breaches repayment capacity limit of 60.00%.",
+    "risk_score": 802,
+    "rules_triggered": [
+      "RULE_04"
+    ],
+    "reviewer_id": "SYSTEM_RULES_ENGINE",
+    "rule_version": "v1.0.0"
+  }
+]

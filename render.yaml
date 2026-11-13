@@ -1,0 +1,53 @@
+# ==============================================================================
+# Render.com Blueprint Specification - Loan Intelligence Platform
+# ==============================================================================
+# Deploy with one click via Render Dashboard > Blueprints > New Blueprint Instance
+# Docs: https://render.com/docs/blueprint-spec
+
+version: "1"
+
+services:
+  # ----------------------------------------------------------------------------
+  # Web Service: Unified FastAPI Backend & React Single-Page Application (SPA)
+  # ----------------------------------------------------------------------------
+  - type: web
+    name: loan-intelligence-platform
+    runtime: python
+    region: oregon
+    plan: standard
+    buildCommand: ./render-build.sh
+    startCommand: uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: NODE_VERSION
+        value: 20.12.0
+      - key: ENVIRONMENT
+        value: production
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        value: sqlite:///./loan_platform.db
+      - key: SEED_ON_STARTUP
+        value: "false"
+
+  # ----------------------------------------------------------------------------
+  # (Optional) Docker Web Service alternative:
+  # If you choose the Docker runtime instead of Native Python on Render,
+  # uncomment the service configuration below:
+  # ----------------------------------------------------------------------------
+  # - type: web
+  #   name: loan-intelligence-docker
+  #   runtime: docker
+  #   region: oregon
+  #   plan: standard
+  #   healthCheckPath: /health
+  #   dockerfilePath: ./Dockerfile
+  #   dockerContext: .
+  #   envVars:
+  #     - key: ENVIRONMENT
+  #       value: production
+  #     - key: DATABASE_URL
+  #       value: sqlite:///./loan_platform.db

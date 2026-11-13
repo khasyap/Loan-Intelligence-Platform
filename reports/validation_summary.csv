@@ -1,0 +1,8 @@
+metric,value
+total_checks,975
+passed_checks,975
+failed_checks,0
+warnings,0
+referential_integrity_failures,0
+arithmetic_failures,0
+lifecycle_violations,0

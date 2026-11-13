@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: loan_platform_db
+    restart: always
+    environment:
+      POSTGRES_USER: loan_user
+      POSTGRES_PASSWORD: loan_password_2026
+      POSTGRES_DB: loan_origination_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U loan_user -d loan_origination_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: .
+    container_name: loan_platform_api
+    restart: always
+    environment:
+      DATABASE_URL: postgresql://loan_user:loan_password_2026@postgres:5432/loan_origination_db
+      PORT: 8000
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command: >
+      sh -c "python generator/generate.py --profile starter &&
+             uvicorn backend.app.main:app --host 0.0.0.0 --port 8000"
+
+volumes:
+  postgres_data:
+
