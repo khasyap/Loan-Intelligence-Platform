@@ -13,7 +13,7 @@ import sqlite3
 from sqlalchemy import create_engine, inspect, text
 from sqlalchemy.orm import sessionmaker
 
-# Dependency order for referential integrity across all system tables
+# Dependency order for referential integrity across all 21 system tables
 TABLE_DEPENDENCY_ORDER = [
     "applicants",
     "employments",
@@ -21,6 +21,7 @@ TABLE_DEPENDENCY_ORDER = [
     "credit_facilities",
     "credit_profiles",
     "loan_products",
+    "decision_rules",
     "loan_applications",
     "documents",
     "affordability_checks",
@@ -137,6 +138,9 @@ def migrate_to_postgres(target_pg_url: str, sqlite_path="loan_platform.db"):
                         row_dict[k] = bool(int(v)) if str(v).isdigit() else (str(v).lower() in ("true", "1", "t"))
             batch.append(row_dict)
 
+        # Count records before migration to detect pre-existing rows and conflicts
+        pre_count = pg_session.execute(text(f"SELECT COUNT(*) FROM {table}")).scalar()
+
         # Execute in chunks of 500
         chunk_size = 500
         for i in range(0, len(batch), chunk_size):
@@ -145,15 +149,27 @@ def migrate_to_postgres(target_pg_url: str, sqlite_path="loan_platform.db"):
 
         pg_session.commit()
 
-        # Verify target count
-        res_count = pg_session.execute(text(f"SELECT COUNT(*) FROM {table}")).scalar()
-        match = (src_count == res_count)
+        # Verify target count and quantify conflicts
+        post_count = pg_session.execute(text(f"SELECT COUNT(*) FROM {table}")).scalar()
+        net_inserted = post_count - pre_count
+        skipped = src_count - net_inserted
+
+        if pre_count == 0 and post_count == src_count:
+            status = "PASS"
+        elif skipped == 0:
+            status = "PASS"
+        else:
+            status = f"CONFLICT ({skipped} skipped)"
+
         reconciliation[table] = {
             "src": src_count,
-            "dst": res_count,
-            "status": "PASS" if match else "MISMATCH"
+            "dst": post_count,
+            "net_inserted": net_inserted,
+            "skipped_conflicts": skipped,
+            "status": status
         }
-        print(f"  [MIGRATED] {table:25s}: {src_count:>6} source -> {res_count:>6} target ({'MATCH' if match else 'CHECK'})")
+        conflict_msg = f" (Warning: {skipped} key collisions skipped)" if skipped > 0 else ""
+        print(f"  [MIGRATED] {table:28s}: {src_count:>6} src -> {post_count:>6} dst (+{net_inserted} inserted){conflict_msg}")
 
     pg_session.close()
     src_conn.close()

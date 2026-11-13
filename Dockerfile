@@ -44,5 +44,5 @@ COPY --from=frontend-builder /app/frontend/dist /app/frontend/dist
 # Render and cloud providers dynamically pass the $PORT environment variable
 EXPOSE 8000 10000
 
-# Auto-seed database if missing, then bind Uvicorn to Render's assigned $PORT
-CMD ["sh", "-c", "if [ ! -f loan_platform.db ]; then python generator/generate.py --profile starter; fi && uvicorn backend.app.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
+# Safely seed SQLite only if DATABASE_URL is unset/sqlite and db file missing; never auto-seed PostgreSQL
+CMD ["sh", "-c", "if [ -z \"$DATABASE_URL\" ] || echo \"$DATABASE_URL\" | grep -q \"sqlite\"; then if [ ! -f loan_platform.db ]; then python generator/generate.py --profile starter; fi; fi && uvicorn backend.app.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
