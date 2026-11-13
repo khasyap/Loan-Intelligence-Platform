@@ -100,7 +100,7 @@ export const RiskDashboard: React.FC = () => {
                 <XAxis dataKey="range" stroke="#64748b" tick={{ fill: tickColor, fontSize: 10 }} interval={0} angle={-15} textAnchor="end" />
                 <YAxis stroke="#64748b" tick={{ fill: tickColor, fontSize: 10 }} />
                 <Tooltip
-                  contentStyle={{ backgroundColor: tooltipBg, borderColor: tooltipBorder, borderRadius: "8px" }}
+                  contentStyle={{ backgroundColor: tooltipBg, borderColor: tooltipBorder, borderRadius: "8px", color: tooltipText }}
                   itemStyle={{ color: tooltipText, fontWeight: 600 }}
                   labelStyle={{ color: tooltipText, fontWeight: 700 }}
                 />
@@ -123,7 +123,7 @@ export const RiskDashboard: React.FC = () => {
                 <XAxis dataKey="range" stroke="#64748b" tick={{ fill: tickColor, fontSize: 10 }} interval={0} angle={-15} textAnchor="end" />
                 <YAxis stroke="#64748b" tick={{ fill: tickColor, fontSize: 10 }} />
                 <Tooltip
-                  contentStyle={{ backgroundColor: tooltipBg, borderColor: tooltipBorder, borderRadius: "8px" }}
+                  contentStyle={{ backgroundColor: tooltipBg, borderColor: tooltipBorder, borderRadius: "8px", color: tooltipText }}
                   itemStyle={{ color: tooltipText, fontWeight: 600 }}
                   labelStyle={{ color: tooltipText, fontWeight: 700 }}
                 />
@@ -146,7 +146,7 @@ export const RiskDashboard: React.FC = () => {
                 <XAxis dataKey="range" stroke="#64748b" tick={{ fill: tickColor, fontSize: 10 }} interval={0} angle={-15} textAnchor="end" />
                 <YAxis stroke="#64748b" tick={{ fill: tickColor, fontSize: 10 }} />
                 <Tooltip
-                  contentStyle={{ backgroundColor: tooltipBg, borderColor: tooltipBorder, borderRadius: "8px" }}
+                  contentStyle={{ backgroundColor: tooltipBg, borderColor: tooltipBorder, borderRadius: "8px", color: tooltipText }}
                   itemStyle={{ color: tooltipText, fontWeight: 600 }}
                   labelStyle={{ color: tooltipText, fontWeight: 700 }}
                 />

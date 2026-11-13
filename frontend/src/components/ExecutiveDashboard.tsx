@@ -236,7 +236,8 @@ export const ExecutiveDashboard: React.FC = () => {
                     backgroundColor: tooltipBg,
                     borderColor: tooltipBorder,
                     borderRadius: "8px",
-                    boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.3)"
+                    boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.3)",
+                    color: tooltipText,
                   }}
                   itemStyle={{ color: tooltipText, fontWeight: 600 }}
                   labelStyle={{ color: tooltipText, fontWeight: 700 }}
@@ -268,7 +269,8 @@ export const ExecutiveDashboard: React.FC = () => {
                     backgroundColor: tooltipBg,
                     borderColor: tooltipBorder,
                     borderRadius: "8px",
-                    boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.3)"
+                    boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.3)",
+                    color: tooltipText,
                   }}
                   itemStyle={{ color: tooltipText, fontWeight: 600 }}
                   labelStyle={{ color: tooltipText, fontWeight: 700 }}

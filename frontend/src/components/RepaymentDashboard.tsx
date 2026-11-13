@@ -279,7 +279,7 @@ export const RepaymentDashboard: React.FC<RepaymentDashboardProps> = ({
                   <XAxis dataKey="installment" stroke="#64748b" tick={{ fill: tickColor, fontSize: 11 }} />
                   <YAxis stroke="#64748b" tick={{ fill: tickColor, fontSize: 11 }} />
                   <Tooltip
-                    contentStyle={{ backgroundColor: tooltipBg, borderColor: tooltipBorder, borderRadius: "8px" }}
+                    contentStyle={{ backgroundColor: tooltipBg, borderColor: tooltipBorder, borderRadius: "8px", color: tooltipText }}
                     itemStyle={{ color: tooltipText, fontWeight: 600 }}
                     labelStyle={{ color: tooltipText, fontWeight: 700 }}
                   />

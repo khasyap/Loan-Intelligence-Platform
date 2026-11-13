@@ -3,7 +3,7 @@
     "profile": "medium",
     "seed": 20261022,
     "generation_version": "v1.0.0",
-    "evaluation_timestamp": "2026-11-13T12:00:59.724790+00:00",
+    "evaluation_timestamp": "2026-11-13T12:19:11.453703+00:00",
     "expected_anomalies": 100,
     "actual_detected": 100
   },

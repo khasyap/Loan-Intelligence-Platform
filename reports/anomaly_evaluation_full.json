@@ -3,7 +3,7 @@
     "profile": "full",
     "seed": 20261022,
     "generation_version": "v1.0.0",
-    "evaluation_timestamp": "2026-11-13T12:01:04.282104+00:00",
+    "evaluation_timestamp": "2026-11-13T12:19:15.380725+00:00",
     "expected_anomalies": 300,
     "actual_detected": 300
   },
