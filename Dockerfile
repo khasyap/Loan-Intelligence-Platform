@@ -10,7 +10,8 @@ FROM node:20-alpine AS frontend-builder
 WORKDIR /app/frontend
 
 COPY frontend/package*.json ./
-RUN npm ci
+# Use npm ci if package-lock.json exists, otherwise fallback to npm install
+RUN if [ -f package-lock.json ]; then npm ci; else npm install; fi
 
 COPY frontend/ ./
 RUN npm run build
@@ -43,4 +44,5 @@ COPY --from=frontend-builder /app/frontend/dist /app/frontend/dist
 # Render and cloud providers dynamically pass the $PORT environment variable
 EXPOSE 8000 10000
 
-CMD ["sh", "-c", "uvicorn backend.app.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
+# Auto-seed database if missing, then bind Uvicorn to Render's assigned $PORT
+CMD ["sh", "-c", "if [ ! -f loan_platform.db ]; then python generator/generate.py --profile starter; fi && uvicorn backend.app.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
